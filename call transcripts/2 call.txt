@@ -1,0 +1,238 @@
+Leo <> Bill - August 15
+VIEW RECORDING - 41 mins (No highlights): https://fathom.video/share/zGNPfYmvw49VweM3yySGSQpYpcGPypyk
+
+---
+
+0:00 - Leonid Shvorob (standartdevelop@gmail.com)
+  Like, we need to discuss, like, what's your goals?
+
+0:06 - Bill Murphy
+  Yeah, what wasn't, I guess, like, sorry, like, what wasn't clear, like, what we talked about yesterday or this morning when we were, I was kind of just, like, talking about, you know, we want to repurpose, you put the content in, you know, get the information to repurpose it, and then potentially design it if, like, it goes forward, I guess, what are we missing here?  Mm-hmm.
+
+0:29 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay. So, let me explain first, or you want to talk first?
+
+0:37 - Bill Murphy
+  No, I don't really have much else to say, like, I won't, I was, I thought we were good with Claude and using personal, necessary, things like that, not, like, any other, a bunch of other tools that, I understand what they do, but I just thought, you know, we were kind of clear.
+
+0:51 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, if, if, I think it can help, if I will share my screen, and I can show you, like, how, how it's going.  Yep.
+
+1:00 - Bill Murphy
+  Okay. So, wait.
+
+1:05 - Leonid Shvorob (standartdevelop@gmail.com)
+  Let's do it. So, yeah, I see what video you share me, and I got you why you have these ideas, and it's totally fine.  Is it good?
+
+1:28 - Bill Murphy
+  Yep. Okay.
+
+1:30 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, let's first, I will show you something that can, like, air table. Uh-huh. So, using Claude, we can just create, like, a table in a few seconds.  So, just to show you how it's working. Yeah. Click. So, for example, this is data. OK. So today I built two tablets, two tables, something like that, but we're not talking about this now.  Like, have you used Cloud Desktop before? Yep.
+
+2:32 - Bill Murphy
+  Mm-hmm.
+
+2:33 - Leonid Shvorob (standartdevelop@gmail.com)
+  So have you connected some MCPs or some tools to your Cloud Desktop? No. Not yet. OK. So, for example, you see, and in here we have tools.  So I already connect my NA10, my Airtable, and, for example, Airtable is more easy. There is a list of tools that we can use.  Yeah, like create a table, update. But Bye. Do something. And we can tell the cloud to use these tools to create something and it will do this for us.  So, and this way we can use, but it doesn't work without our efforts. So if we ask to do this, it will be done, but we still need to control it and something.  So if your goal is just to learn how to do it properly, and you have a stack of tools that you want to use and just say, okay, do this, do this, do this.  Yeah, this is one way. If you need some systems like what we discussed about, this is working otherwise. So there is some tool that it's saying these agents where they need to run on what triggers.  So this is another way. We can take goods from this and from this. for All We'll So teach you and your team how to work with these tools, and also, if you need to build some systems that needs to run independently, we can use other tools.  Okay?
+
+4:15 - Bill Murphy
+  I'm just not seeing like, I think that makes a lot of sense for sure, but I'm just not, like, in the sub-agents that, I mean, at the video I was looking at, it pulls from multiple places, it does multiple things, and, like, you can maybe not send it to, like, distribute the content, but, like, you know, you can kind of have multiple sub-agents running in one, like, whatever that...
+
+4:38 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, yeah, we can do this, so we can say, okay, use this agent, then take this data and use another agent, but we still need to review every step, because sometimes it doesn't, not 100% what you want, and you need to review it.  So, something like this. So, we can say, okay, create a... They will table it for marketing agency for B2B companies that will show some good tests results and it looks complex and impressive.  Something like this. And then it's going and using all these tools and you can use it from the cloud desktop.
+
+5:21 - Bill Murphy
+  Akim, I guess like with cloud code like it seemed like it was just like you're able to kind of set this up a little bit more like in like one of the like inside that code terminal.  So you can kind of just have like all these things flowing in there, right? Yeah, yeah.
+
+5:38 - Leonid Shvorob (standartdevelop@gmail.com)
+  So I can show you next in the cloud code, Howard. So we just go in step by step. So in here is just more easy to show and then we can go to like VS code and I will show you.  So basically what it's doing now, it's calling all these tools and creating tables. So in here. We should create a table.  We should wait in about like one minute. And like when you're working for your marketing agency, you have a lot of tasks day to day.  So you usually do it by yourself or you just to delegate most of them. Like what's your process? Yeah, I usually just do it myself.  Okay, so you see B2B Marketing Performance Analytics. It's created a tablet, tastes data. So as you see, if you can use these tools, I think it can be helpful for you.
+
+6:38 - Bill Murphy
+  So if you want to go in this way, what we should do?
+
+6:43 - Leonid Shvorob (standartdevelop@gmail.com)
+  I will show you now MCPs. So MCP is like, I show you now Airtable and it's like an A10, but what's to...
+
+7:08 - Bill Murphy
+  I don't think we need to connect too much, we just need to analyze the YouTube video or the transcript and do everything I had shared, you know, and you had a good idea with the iScore or something like that, so then we can, then they could spit into a table in Airtable, if that's best, or Google Sheets, and just kind of, um, just kind of basically do that, I think, if we just had, like myself or someone else can just kind of, you know, once a, a, uh, like, I don't know, a podcast is created, we just put that in there, it, it, uh, does all that analysis and creates different ideas for content, uh, based on the iScore and like our ICP, and then it just kind of spits it out, and we can kind of say like, yeah, this is, you know, the, the PDF looks good, I want to edit this up a little bit, or to  Or the image ideas look good, or these look good, and then we can just kind of say yes, yes, no, and then it just goes into a table somewhere, and we can just kind of design it from there.
+
+8:11 - Leonid Shvorob (standartdevelop@gmail.com)
+  So it's basically what you're doing day to day, but you just want to speed this process. So what you're doing, like two hours, you want to do for five minutes, but you don't need it to be like some complex systems.  You just want to do your job, but do it faster and better.
+
+8:27 - Bill Murphy
+  Yeah, and then ultimately, I think once we kind of get a feel for what we're doing, then we can build out the system.  Because since we're not really doing it all manually right now, like it's just like an idea, like I think if we're automating it all, it just takes out like a lot of the human feedback loop where we, you know, we're not like, since we're not like really like experts in what we're doing right now, just make it think it makes sense to have a little bit more like, you know, you know,  Same thing with like SEO, like I want to, you know, it can perform all the audits and stuff. And then we can kind of say like, okay, now I know these things are always working.  And here's my feedback. And then we can, you know, we can just have it run on a loop every, every week or something.  Okay, okay.
+
+9:20 - Leonid Shvorob (standartdevelop@gmail.com)
+  So say if I'm wrong, you want just to try all this automation stuff by yourself. You want to see what's possible.  And when you already know what's possible and what want, what you can do, you want to take this best cases and just automate it.  But now you don't have the clear ideas, how it should look like in like ideal picture. So you want just to learn how to do it by yourself.  Yeah. Yes. Yeah.
+
+9:47 - Bill Murphy
+  And I mean, of course, with you kind of, I mean, you're going to help build in like, we can just kind of have these conversations and just kind of perfect out that perfect the prompts or the steps.  And then I'm hoping we can kind of say that cures. The whole system, you know, in like a month or two months where it's like, all right, now we know with our client, Nuage, we do this, this, and this, and then this happens and they like that.  And it gets a lot of engagement. The clients like it or the lead, you know, we're getting a lot of leads from it or something like that.
+
+10:17 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. So I got you, but look, if you want to do it for yourself, it's okay. But if you want to like teach your client how to do this or what?
+
+10:30 - Bill Murphy
+  No, I don't want to teach clients how to do it, but I want like, you know, if someone on the team can kind of run it or if like, at least, you know, for the repurposing, for example, like they can go in and have it in like VS code and just kind of say like, all right, I know the YouTube video just wrapped up and I know I got to give Bill all these three things for the, you know, for by tomorrow.  I just need to have it all, you know, getting to like a certain level and then Bill can review it.  Okay. Okay. Prove it, or we get it to the client and they approve it, stuff like that. Okay, okay.
+
+11:05 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, that's good. So now I finally know how I think what you want. Okay, let's go. So look, I have like a plan.  I can tell you how I see this process and you can correct me, okay? Yes. Okay, so it looks like more like coaching.  Yeah, so I can show you, like you say, Mililo. I want to make this happen by using these tools, these tools, and these tools.  Yeah. For example, MSP, YouTube Extract. Yeah, it's a lot of MCPs in here. It's open source. But to use every this tool, like you should spend at least like five hours or more if you are just start doing this stuff.  And for me, usually I'm testing if just basically. I'm using, like, three hours to see what's working, what's not, and you should, like, also have some workspace where you're working.  So, like, everything new, this MCPs is getting more easy. So we can start from that. You can say, okay, we can use tool like YouTube and for content, which is good.  Like, what tools you're using for content?
+
+12:28 - Bill Murphy
+  Right now, like, the channels we're on are LinkedIn, YouTube, and Reddit a little bit. So, like, I had that idea earlier, like, we could, and Clay.  So we also have Clay. So basically, Clay and Triggify can pull in Reddit threads that are, like, relevant to our industry.  So I'm just using Nuage, for example, like, their NetSuite. So, like, anything in the NetSuite subreddit that talks about inventory management.  We can pull in there and we can have a whole database inside of Clay or inside of Airtable. then like once they if they if the YouTube video comes back and like we can have we can scan through all the YouTube threads to see like which topics are we can answer based on that YouTube video.  And it also comes back and says, like, here's like a PDF that would, you know, be impactful on YouTube or on LinkedIn.  Here's the newsletter copy that we can put sensitive newsletter and like we can kind of have like some guardrails on like what what it shouldn't shouldn't shouldn't give.  But we can just kind of like, you know, like having it. I think having it kind of analyze and see, you know, suggest things based on what it thinks is going to be impactful.  It's helpful rather than just saying, like, we need three LinkedIn posts from this. And then, you know, other clients we made.  forced We have like text posts or blog posts that they wrote, and now we need to turn into some visual elements so then we can kind of do the same thing, but just kind of see if there's like more focus on like PDFs or graphics and each client we can build out, I'm thinking like a project and like have multiple sub-agents in there, that's what I'm thinking.  And like, so like one client we know is more video heavy, and like they'll have more like this, that the way we think that process will be this way.  And then the other client, they do more text, so we need to have more, you know, thinking through more visual elements there.  And if it's like SEO, we want to do, you know, we know we're gonna have a lot of, this client has more blog posts, so we want to make sure the content is not cannibalizing itself and we want to, know, or this one focuses on link more local, you know, so that we need to have more programmatic SEO pages that are  We about local companies and we can just kind of like build out from there. I know that's possible with the sub-agents.  I don't know how, you know, I know, like just from the videos I've watched, but I just, obviously, I don't know because I don't know what I don't know and I never built any of this, so like, just like, I think talking with you through it and then you kind of suggesting what's the best way and then as we're just building out more and more of these tools and processes and learning, like we can start saying like, all right, every week, like every, you every time we do a YouTube video, like you're, you're also, you know, you're approving everything quickly.  Everything looks good. We got to have that, have these things kind of locked in now, like now we can like actually schedule these posts that we need to like incorporate the next step and then we can go do it from there.  But I think the, you know, not ever doing this and not knowing like what the output's going to be.  It's like, if we're just kind of like just building out like wall to wall automation, it's just going to, you  We're, you know, we might as well just, you we're not really checking it. And then the client's going to start thinking like, you know, they're going to start seeing things wrong.  And it's just going to be like, they're going to, they're like risk adverse. And I guess going forward, like our own internal stuff, like we can use that as like a more of like a, a testing ground.  Like we can just kind of do things and just kind of be a little bit more free to test your ideas.  So then, you know, I can, I can go to a client and just say like, Hey, we've been doing this for like two months now.  It's like, like this Reddit idea. was just talking about like, Hey, we're just doing this. It's like doing great.  And like, we can do that for you. And like, though, you know, they'll be way more likely to, to just say yes.  Cause we kind of have that a a little bit of data to back it up.
+
+16:49 - Leonid Shvorob (standartdevelop@gmail.com)
+  I don't know.
+
+16:50 - Bill Murphy
+  Is that clear or what else could I tell you there?
+
+16:54 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. It's clear that you have a lot of stuff going on and you want to make it as efficient as possible.  That's what I get. Yeah.
+
+17:00 - Bill Murphy
+  Yeah, I think the bigger, the biggest issue is like, we don't, don't have like a lot of, it's me doing a lot of execution and like, I have a lot of ideas and like what we want to do, but like, just don't have the bandwidth to do it.  And I want to be able to, I guess, do it faster so I can do more. So if we have, if we bring on like four more clients in the next three months, like, it's like, Hey, I know these things are working and like, we can duplicate that, but we did make it better, make some changes, modify it for the client.  And then it's like, it's already kind of ready to go because, you know, just for the content stuff, for example, like they're creating, you know, an hour or YouTube or half hour after YouTube video or LinkedIn live every other week.  Now they're going to be doing like webinars and we can clip the videos, of course, but then it's like, there's so many opportunities on the, you know, we can do the newsletter, we can do graphics, we can do other posts.  And it's like, I don't have the time to do it all. And I don't really have the SOP to say, here's how we do it.  So then if someone else does it, I'm still going to wind up having to be in the weeds on it anyway, because I haven't told anyone exactly what I wanted from it.
+
+18:21 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay. Okay. I got what you mean. So let's start from something simple, like what we already talked, like repurposing of content.  Yeah. Let's take it as example. And I tell you now what's possible and how we can make things better.  Yeah.
+
+18:41 - Bill Murphy
+  Yeah. And, and I think, you know, going forward, well, I have, of course I have the other, those other ideas and I'm trying to prioritize them on my side.  And like, I think, you know, we can just kind of walk through them. Even if we talk, have like a standup every day or every other day, we can just say like, here's what we need to do.  And just kind of keep building these things out if that's positive for you or like whatever is best for you to work and feel like you have what you need so we're not, you know, don't want to have a miscommunication where you're hours doing something and it's like, oh, , we just didn't do that right.
+
+19:17 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, because when you texted me like this, I was, oh, it's interesting. But it's okay, now speaking is out clear and I think it's good to like articulate the problems and so on.  So, okay, how about this, let's like discuss on simple example, and then we can discuss it, it's same approach we can use for all your other ideas.  Okay, yeah, yeah, let's do that. If we do first thing good, then we know how we're working together, what format you say you want, that's more like interactive, then I show you how to do it so you can do it for yourself and so on.  Yeah, yeah.
+
+20:00 - Bill Murphy
+  That sounds perfect. And I'm sure like you already have found that does MCP I found like I found like a bunch of like a GitHub for like a bunch of sub agents that are already done and like cloud code already has like, they already built a lot of these things.  So it's like, how can we just take what's what is already working somewhere else and just kind of building again, you know, are good for us.  And yeah, yeah, yeah.
+
+20:27 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, Bill, I want like just clarify because there are a lot of tools. But if we just playing with these tools, because it's interesting, we're not going like so so far.  Yeah, I think it's good. Like you have like, for example, problem or something that you spending a lot of time on repurposing content.  Yeah. Yeah.
+
+20:50 - Bill Murphy
+  yeah, I'm saying like, I'm saying like, I have, I want to be able to suggest things based on like what we're seeing what I think is impactful.
+
+21:00 - Leonid Shvorob (standartdevelop@gmail.com)
+  But
+
+21:00 - Bill Murphy
+  Like if someone's already done it, if there's already like someone's already done it and they kind of have it like 50% of the way there, like, let's, you know, that's, that's always helpful.  Um, I think, you know, why make the same mistakes someone else?
+
+21:14 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, yeah. Yeah, sure. Just, uh, if you're talking about MCPs, it's all open source. So you can just see what's working, but it's it's yeah, it's tools.  So we need to know what we want to build. Yeah. So some workflows for you, monitoring your competitors, SEO, or content stuff, and then we will say, we will see what combination of tools can make it more fast.  Yeah. Yeah.
+
+21:43 - Bill Murphy
+  Perfect. I, um, like I said, I have like a bunch of ideas I've tried to like, I had them all in a notes tab, but then I just threw them into, um, GPT or Claude just to kind of get, keep them all together and add a little bit more detail.  So what my plan is, is just try to like, kind of keep refining it. next? Yeah, Okay. And then like work with you on them so you can kind of give like a real world since you, you know, you're your expert at it, just kind of say like, here, this is possible, or, you know, here's how I'd go about it.  And then we can just kind of put this in, you know, start working on that and, you know, build out a nice little library here.
+
+22:17 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, I think this will, it will be nice if you just send me video, like you send me now and you say, okay, Leo, I want from this video, this and this, and I want that I can do it by myself.  So, you can send me an example of how the results look like, yeah, and then I test it on my site, spend maybe one day or two days to figure out how it's working, do some testing because, as you say, it's 50% maybe good, but other 50% to work with this correctly needs to figure out some stuff.  And then when I figure out on my site, I can just give all this experience for you, like for these tools.  So you can just make it easy. Or I can create SOPs, like videos, like push this button, then this button, then there is errors, what can be, this is how to handle these errors.  So you can easily to use it. And then we can just have a call. And you will, I will show you in live how to do it.  You will do it also. And we can have some conversation like that. Yeah, I love that.
+
+23:29 - Bill Murphy
+  And I think, on that, like, I know, you said error table. I said, like I said, I have the Claude API.  I don't know if like, I'd like to, if I can put it into these run, my, I guess my thought here is like, So if we're working with Nuage, like, there's probably like three different, you know, that we're going to be doing the content repurposing, we'll do, we'll have like a CRO thing or something.  And we'll have like, I'll need Thank Like I want to have like three, have like all three running at the same time so I can just kind of like spend an hour on Duage and just say like, here's what I need to do today.  Like, is that using VS code and like just connecting the API or whatever is working there and running those sub agents?  Or is it like, I guess these are all probably a little different, but I just want to know what to have set up.  So when we have our calls, like you, you can just kind of tell me to open up VS code and like, I can play around with it on my, on my time.
+
+24:33 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. So I, I, I, yeah, I saw like video and I do it sometimes with myself when I work in like big projects, when if you do it one to one, it's take all day.  So you can just open five or 10 files and say, Claude, okay. In, in this file, you should do this in this file, do that.  So it can save time. Yeah. Yeah. Yeah.
+
+24:54 - Bill Murphy
+  Like I, I, I'm imagining there would be the, have the repurpose, well, this, and I can just spend an hour, just do it all.  And then come. Back later and just have everything ready for me to review and just make some adjustments.
+
+25:05 - Leonid Shvorob (standartdevelop@gmail.com)
+  That's how I'm envisioning.
+
+25:06 - Bill Murphy
+  I don't know if that's actually possible. Yeah.
+
+25:09 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, okay. Let's just take the thing that you want to do. You can explain me like content repurposing. I can figure out how to do this with MCPs.  Yeah. And I will show you. So you can do this, do this. You can then do it by yourself and see how it works.  And after we can finish the automation that we start. Or if you say, okay, it's good if I'm doing it by myself and I don't need it to be automated, we can move forward to other thing that you want to improve.  How it sounds. Yeah. Yeah.
+
+25:50 - Bill Murphy
+  That sounds good. I just, oh, where are we at here? So like how I got that kind of thought here is like, in this.  Video, when he's going through, he has like all the different tabs here, and I was just kind of thinking that's like a way to just save time if you have it all over here and then kind of running for each client, just having like all the agents or tools kind of ready to go so I can open up Nuage and just kind of say like, all right, we're doing these three different things with them.  And like, I can like just like jump right in. Is that you kind of get what I'm saying there?  Yeah, yeah, yeah. If you want, I can share my screen.
+
+26:34 - Leonid Shvorob (standartdevelop@gmail.com)
+  show you how we can do it. Like, so you can see it live or something if you want. Yeah, let's do that.  Okay. Okay, so I guess I need to screen share again now. So, okay, so yeah, it can do from Cursor or from any other project.  So basically, this just... Cod. Can you see the screen? Yep. Yeah, and we can talk with Claude from here.  Like, I can call the terminal and then I can ask Claude. Yeah, and as you see, you can interface like in here, Claude may read the file, but this is working with files.  So it's good when you're programming something or do something, stuff like this. But also if you have some databases, it's also can be useful and you can open it in one project and you can open it in this project also.  So like you can do it more fast, but I know how.
+
+27:58 - Bill Murphy
+  What if you did, I read on the. It says, if you want to call your created agent, you just have to do forward slash agents, and then you're able to just start building this out.
+
+28:11 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, but what they're talking about, agents, is just tools that can use it through programming.
+
+28:18 - Bill Murphy
+  Yeah, I thought that's kind of like, you know how to do it. That's how I was reading it. I just thought you can jump in here and just kind of say like forward slash agents, and then you can kind of just have it.  After you built it, you can kind of say like, here, I have my this, and I can just save that in that tab.
+
+28:42 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, but we don't, so look, okay, like this VS Code and or Cursor or this environment is good if you're programming.  So if you're not programming and you want to talk with like Claude, like human, and explain him what to do, you can do it from...  This, it's same. And then if you realize that you have some processes that you won't run very simultaneously if it's necessary, because you can just ask this, okay, like, create an ETN workflow from the data of my Airtable.  So you should first analyze Airtable table and then create a workflow using MCP. So I asked two agents, two MCPs, two tools, and then it will use two tools.  So it will take information from first agent, let's say it's like this, and then ask another agent to build workflow for me.  So it will be okay for you, something like that, or what?
+
+29:55 - Bill Murphy
+  Um, it just seems different than what's on there, on the... Anthropic page, says, if you want to create an agent, it's reusable once you create the agent, and then you can use it across the projects.
+
+30:10 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, I got you. Yeah, yeah, this totally we can do.
+
+30:14 - Bill Murphy
+  Yeah, I guess if you check out that site I sent you, the documentation, I don't know if that's kind of like what I was reading and kind of thinking about like how, I guess how I would want to use these things.  And that's, yeah, that's kind of where I'm coming from. I mean, of course, I'm just reading it, so I don't, I just know what it's on the website or on their page, so I've never done it in practice, but that's kind of what I was thinking, kind of jump into VS Code or Cursor, and you're like, build out the agent, and then you can kind of save it, and then like, if I wanted, if I'm building out that repurpose agent for Nuage, I can then repurpose it, or I'm I can, you know, reuse it for a  Another client and then but give it a little bit different directions and like basically have it like kind of fine tuned into, you know, for instead of having like fine tune over and over again and creating it in like that on the chat.  So that's kind of how they said each sub agent operates in all contexts can be fine tuned with details instructions and like each sub as you can have different access labels, access levels so depending on how do you set this up.  don't know.
+
+31:32 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay. Yeah, yeah. So this is like you even can do your own MC and you can figure out what tools you want to use.  And you can create something from still tools, you you can you still saying use this tool and then like use this tool, but you're speaking it with your voice.  If it's okay for you, I can figure out with your tools what you're using. I can check templates what already have done.  And if I find something we could. Start from there. If there is no way, I can suggest you something we can do.
+
+32:06 - Bill Murphy
+  Yeah, I saw in a video, you can speak plain natural language in the cloud code, in the cursor, and you can prompt it without having to do code.  So I feel like it's not like a hindrance to use it, if it's going to do what we want, but I've never seen it the other way, so I'm just kind of biased to what I saw and what I was watching videos on.
+
+32:41 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay, so yeah, let's get to the point, like, from what you want to start? You want to, I help you to do this stuff with MCPs and like, Claude's, like, agents, as you say, yeah?  Okay, so what we're doing now, so he wants... So their data from YouTube, and then to transcribe it, and then to, based on this transcription, can say, okay, make posts for LinkedIn, and something like this, yeah?
+
+33:15 - Bill Murphy
+  Yeah, well, basically what I put in my message today, and you had suggested the ice score and the impact score, so I think having that is important as well.  But, yeah, I guess if you watch the video I sent you and the link, he basically walks through doing this in the video.  So I think we have a really easy way to do this, and then we can kind of make it our own, because I don't know if you talked about ice score in there and the other good ideas you had, so having our own tool here is awesome.
+
+33:57 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay, that's good. So you send me a video, I will... Watch it, and if I have any question, I will ask you what exactly you need if I don't get you, and then I will run it on my site, and when it's running well, I create HOPs, and I send you instructions so you can make it on your site, yeah?
+
+34:19 - Bill Murphy
+  Yeah, yeah, and I'll talk through any other videos and stuff, and I can send you just to clarify so we make sure you're doing whatever.  Cool. Let me know if you have any questions, and let's keep moving the ball forward, then.
+
+34:36 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, so let's just final, yeah? So you send me a video, you say, okay, I want to do this and this, I see how it's possible, and then I do research, and if something's possible, I tell you this.  So, you know, it's not always run from the first. So, you know, sometimes you should try it again and try it again.  done. Yeah! So that's expectations will be correct. So it's not like 30 minutes and it's all done. So sometimes this needs more time to test in it.  Yep. So, okay. So let's start from this, like content repurposing, but through this way, like MCPs, Cloud Code, and et cetera.  Yep. And I think today and tomorrow I figure out how it can be done and I send you updates in Slack.  If I have any question, I will ask you. And when I figure it out, we can like have a call, have a call.  I just can record the video and send you. And if you need some extra help, we can schedule a call again.  Yeah.
+
+35:48 - Bill Murphy
+  Sounds good. Yeah. Looking forward to this, man. Let me know if anything else comes up and I'll, is it okay if I just keep sharing, like, I guess, kind of how I think these things, how I think we, you know, I guess the output should be, here in United .
+
+36:01 - Leonid Shvorob (standartdevelop@gmail.com)
+  know. Yeah, sure. That's exactly what I want from you. Because I'm also exploring this kind of stuff. Maybe every day spending like four or three hours to try new MCPs.  So if you're sharing with me what you have in mind, it will help us to move faster as well.  Okay, perfect.
+
+36:25 - Bill Murphy
+  Yeah, I will send you any other thoughts. But yeah, I think that that video that at the time where I shared it, he's just building the content repurposing agent right there.  So we can build a much better one, I'm sure. And then like the cloud code link I sent you kind of felt like it feels like it has a lot of information there.  And, you know, I'm guessing like, you know, for the next call, like, I'd love to kind of get these things running.  So I can do it myself and just kind of keep, you know, be able to kind of be on your understand what you're saying.  when you're walking through it, like, at least I've had, you know, I know. I could spend some time playing around with it myself, so I am not totally lost when you're jumping into different terminals or talking, doing those things.
+
+37:10 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, sure. If you want, I can create easy steps how it can be easy for you to start, like download this link, try this, try this, so it can be more easy for you next time.
+
+37:23 - Bill Murphy
+  Could I, if I download BS code, and could I, could I just plug in the cloud API, my cloud API key and just kind of, and then I guess I should be kind of good to go there?  Yeah, just okay.
+
+37:42 - Leonid Shvorob (standartdevelop@gmail.com)
+  For first, I highly recommend you just set your cloud desktop. I will show you right now. It's more easy.
+
+37:51 - Bill Murphy
+  I don't, I have, I don't have, I have the cloud API and I don't, I don't have the cloud desktop.  I have, I have u.com. So that has. So I guess it's two different things. The Anthropic API is just kind of like its own build with Claude.  Yeah, yeah, yeah.
+
+38:12 - Leonid Shvorob (standartdevelop@gmail.com)
+  So look, we don't need API in here, so it's not necessary. Okay. Okay, I'm still sharing the screen or not?  Yeah, so look, in here, you should download first Claude Desktop, I will send you a link, Finit. And to set up first tools, so it's doing in settings, like in here, you can use all like features, like you can for developer, I guess.  So the most easy is just to like put Airtable or some others in here. For some, you need to make more difficult.  So this file, like you open on your desktop, and you put some instructions in here. So it's basically the stuff from GitHub, you see, like API keys, and something that you will need.  So there are two different ways. I let's make it when I watch your video, I see what instruments need, I make instruction for you, how to do it.  So you can start running it on your site.
+
+39:37 - Bill Murphy
+  Okay, so are you saying, first, I need to set up the tools inside Claude, and then we can use it anywhere else, like we can use on cursor, we can use in Claude, we can use anywhere else.  But first, I need to set up these tools, like, basically, like the integrations of MCP on Claude itself.
+
+39:56 - Leonid Shvorob (standartdevelop@gmail.com)
+  Look, so in different environments, you shouldn't do everything. But when you do it first time, it makes it very easy to do it again.  If you do it in Cloud Desktop, you try it, you can just copy-paste it into Coursor or other environments.  Okay, excellent.
+
+40:17 - Bill Murphy
+  All right, I'll play around with that. Okay, that's cool.
+
+40:21 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, okay, for tomorrow, I will send you instructions how to set it up, but basically now you can just download Cloud Desktop.  And so, yeah, I will send you in one hour how you can test the stuff first. And for tomorrow, I will explore instruments, what you sent from the video, and we can make it from that.  Okay? Yeah, sounds good.
+
+40:49 - Bill Murphy
+  I'm looking up, you know, just reading the documentation on how to set some of these things up, too. So I think it will be good.  Okay. Cool, man. Thank you very much. Yeah, have a lovely rest of your day.
+
+40:59 - Leonid Shvorob (standartdevelop@gmail.com)
+  You too.
+
+41:00 - Bill Murphy
+  Bye. Bye.

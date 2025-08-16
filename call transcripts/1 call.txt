@@ -1,0 +1,160 @@
+Impromptu Zoom Meeting - August 14
+VIEW RECORDING - 20 mins (No highlights): https://fathom.video/share/9x2kbdE8KzScDgB983_8HByayEdckpN8
+
+---
+
+0:00 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, looks like, alright.
+
+0:04 - Bill Murphy
+  How's Bali?
+
+0:06 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, it's pretty cool, but it's like time zones, you know, it's like, I think it's like lunchtime in the U.S.
+
+0:12 - Bill Murphy
+  now. Yeah, I'm in Bratislava. So, I'm on the same time zones Poland, I thought we were syncing up, but no big deal.  So, yeah, so I appreciate you sending over that video and everything. I wanted to just kind of talk through kind of like, I think like a little bit more like what we're looking for and kind of see if it syncs up with your experience and kind of what you put in that roadmap.  Yeah, sounds good. Cool, so we're a small agency, like I mentioned, and we're just trying to like, I'm trying to like create some agents that are really helping like do some of the things that we want to do more of.  I'm thinking like this SEO, CRO, doing like some ad options. Optimizations for Google, LinkedIn, and like I mentioned, like the signals and notifications and like building out that digest or trying to think of things there.  I don't really have like a set like priorities on like, here's what we, you here's like what we want to do now.  But I wanted to get like a sense of like, I guess like maybe like what's possible and like how can we build these things and like, I guess like Claude or GPT to like really have these agents kind of, I'm thinking of it as kind of like a, you we kind of have like a team of agents and like we can kind of take the ones we need for each client and like, you know, add like a little bit more flavor to whatever the prompts are and be able to kind of move fast.  One, was just wondering, like, is that like possible is that like the best practice and two is that is that kind of like in your wheelhouse of, of, you know, talent?
+
+1:59 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay, got you. So are you saying that you want to add extra value to your client services and also use it for your team so you can make things more efficiently, yeah?
+
+2:10 - Bill Murphy
+  Right, right. So we're thinking like, for example, like we want to have like more like SEO, like how can we create, how can we understand like which content is performing well, which content is like cannibalizing itself, how can we create programmatic pages, like programmatic SEO.  So maybe, you know, thinking like if we're an agency, like we can create B2B marketing agency in New York City, B2B marketing agency London, how can we create all these pages, how can we, you know, spin those up pretty quick, how can we kind of set up like an agent to kind of think through different conversion rate optimization tests on different landing pages so we can kind of implement those quickly.  I think, you know, I think, pretty sure like I've watched a couple videos of Claude using like a setting up agents in.  know. I have a question. Thank And so I know these things are possible, I'm just kind of like, I've never done it before, so I'm like looking for someone who's had that experience and I can help teach me and then help put together like SOPs so that we can have people on the team just like, start moving a lot faster on stuff like this.
+
+3:17 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, sounds interesting. I was also like from marketing background, so I did all what you're doing by myself, maybe like more with PPC, but SEO a little bit also.  Yeah, it's totally possible. Yeah, like Claude create like this MCP like only I think six months ago and now everybody on hype and it can increase very significantly productivity.  like you can say just something and it creates full like Airtable or just full anything. So basically now I was like testing how creating workflow from this and I'm like increase my productivity maybe two or three.  One the the. So I think if your team already, they're professionals, I check your LinkedIn and like your conferences and it's pretty good.  So I think if the correct people using these tools, it can be really good and your competitors will really really suffer if these instruments will be in the right hands.
+
+4:25 - Bill Murphy
+  Yeah. Yeah. That's what I'm hoping for. And I'm hoping to kind of have someone like you or you kind of love to kind of have like this long term relationship where we're able to, you know, one, like you can like help me, you know, if we're, have you used Cursor?
+
+4:39 - Leonid Shvorob (standartdevelop@gmail.com)
+  Oh, I used, but now I use Cloud Code.
+
+4:43 - Bill Murphy
+  It's better than Cursor from my opinion. Okay. I was, I was watching a video where they, they added Cloud Code into Cursor.  So like you can set up different, a bunch of different, like, I guess, terminals or whatever the term.
+
+4:55 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah.
+
+4:56 - Bill Murphy
+  Yeah. Yeah. So like the video I was watching, like basically like For one, you we're doing like SEO, and then the next terminal there is like, you know, maybe we're doing like a content repurposing agent, and we can kind have like multiple ones running at the same time.  Is that something you can do in CloudCode?
+
+5:14 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so basically CloudCode is just terminal that's telling what to do. They're like AI telling what instruments to use.  And you can, like, use it from different environments, like from cursor, or from, like, VS Code, what anything what your team is familiar.  So usually I use from VS Code, because it's just so I think more convenient, but from cursor is also doable.
+
+5:41 - Bill Murphy
+  So it's up to you. Okay, is, is, I never use either of them. So like, whatever, whatever you kind of recommend there is, I know Google has one like Vortex, or they have their own, is that is that something worth using?
+
+5:58 - Leonid Shvorob (standartdevelop@gmail.com)
+  Or is you that's not really? Yeah, so look, basically MCP is just like USB-C from like devices. So it's just the way how LLM telling what instruments to use.  So to like tailor it for your team, I need to know like the coding or what experience they have, because if they not know coding, we can use it more simple.  Just create some workflows that they can use and create SOPs, like do this, do this, not complicated. And they can do the most like repeatable stuff in your agency.  So for example, like you're saying, repurposing, or maybe scraping some data from some website. So we just see what workflows and then we create like easy way for your team how to do this and save time.
+
+6:57 - Bill Murphy
+  Great. Yeah, that's why I like that idea. Yeah, and I think of it, correct me if I'm wrong, I'm thinking we can just kind of say like, hey, we can connect the tools, we need like data for SEO or Actify or any of those tools, and we kind of say like, hey, now run a backlink analysis for, you know, basically a prompt, like say we want to do this, and I'll just tell you the name of the website we need to run an analysis for, and then it can use the tools to go do it, and then it'll report back to data.
+
+7:30 - Leonid Shvorob (standartdevelop@gmail.com)
+  Is that kind of? Yeah, yeah. So we can do like your team, like for example, you using like CloudCode or something, and you just say, okay, I want you using this tool, you do X, Y, and Z, and return me results in this format, just this.  And so we can make like collection of prompt that working good. And anyway, anytime that someone of your team need to do something, they just look okay for this.  That's... That's right. great. Hi. Hi. Hi. Task, we should use this prompt because it can just time saving, but also they can do their own like research, experimenting with different tools.  So it's also good if they can have like skill to like talking just okay, do this, do this, because maybe they can find better results.  And of course, if they doing something like every day, marketing stuff, they will find creative ways to use it.
+
+8:32 - Bill Murphy
+  cool. And if we wanted to, if we're using a BS1 or cursor or whatever, are we able to is that it does it is it is the best practice like we want to be able to just kind of like, share that these terminals or whatever they're called with the team members, we'd have to put it in like a document like SOP, like use these prompts and just let them go and do it?  Is that is that kind of? Okay. Yeah, man, I I love to get Yep. As we're doing these, I have a bunch of ideas, and of course, we can put them in kind of like a timeline and prioritize and all that, and I'd love to just kind of work with you long term and make sure we're kind of going through, you know, if you can share your screen, like show me how to use some of these things, so I feel like a little bit more, like I can experiment more with them.  So like, is that, you know, you, does that kind of like jive with you? Do you have like the timeline?
+
+9:31 - Leonid Shvorob (standartdevelop@gmail.com)
+  Like, do you have like, Yeah, that sounds good. Also, I like working long term with clients, because when I know the specific of business, I can like bring more value.  And it's much better in this. And yeah, I did before, like, kind of relationship with clients when I teach them, for example, like you have some workflows, that you have some ideas, we can start from something simple, then I test it on my way, when I have some  Good result. I show you, you can ask question, and we can create SOP for like your team. And when it's run successfully, we can think what's the highest ROI thing we can do next.
+
+10:13 - Bill Murphy
+  Yeah, I love that. And yeah, I think we can go, you we can set some time and go through like every client and maybe like some ideas, like what we want to do, like some high, the highest impact, you know, I guess, agents we want to set up.  And then the last couple of questions I have is like reporting. So are we able to kind of, are we able to use these agents to create like, like I see you putting like that, the intelligence system, like the, you basically get digest.  Are we able to create, would we be able to create or plug in data from like multiple sources and plug it into like a dashboard, like that's updated, like monthly or something like that?  Is that another way we can use it with like, uh, I guess Google or. If there's any other tools, is that another possibility?
+
+11:03 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah. This is like automation that doesn't need any MCPs. It's pretty, yeah, yeah. We just need to know what services you have in mind, what data you want, maybe it's Google Ads campaigns or this or that, and we can pull all this in one database and when we have all this information, we can then visualize it in the good way.  So you can just see what you need to see, something like that.
+
+11:34 - Bill Murphy
+  Excellent. And last, man, just had another question here.
+
+11:42 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, go on.
+
+11:45 - Bill Murphy
+  Yeah, , I forgot. I don't remember the last one, but so what's kind of like your process here? Like when, when, like how, how fast do we need to get started?  Like what's kind of. pick 90th Oh, and Clay. Are you familiar with Clay?
+
+12:03 - Leonid Shvorob (standartdevelop@gmail.com)
+  It's like when you can have some signals and something like that. Yeah, I used to work with a similar service.  So yeah, I know what she's doing.
+
+12:17 - Bill Murphy
+  Okay, yeah, I think we can, I can put together a lot of the tables to like create with the signals we want.  And then like, maybe we can just collaborate on how do we make that how do we, you know, I guess take that and, you know, do something with it.
+
+12:32 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. So how about we can start with something you already have in mind, maybe you have some clear idea about some workflow, we can, like, you can explain me what you want to do, maybe I can just open and share with your screen, or you can share screen so we can make it running, like, from tomorrow, because, yeah, I've just finished a big project.  And now I have some time. So I think if we set up, we I can start from
+
+13:03 - Bill Murphy
+  Cool. Yeah, let's do that. I think just from the stuff I've learned, there looks to be like what I'm saying is I don't think we need to create everything from scratch.  I think a lot of things I'm talking about, is there templates already somewhere we can manipulate or modify? Am I thinking about this right?
+
+13:32 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so there are a lot of templates and pre-built decisions so we can just see what's already worked and then tailor it for your needs.  So what idea do have in mind?
+
+13:48 - Bill Murphy
+  Yeah, I'm thinking like I definitely want to work with something with SEO, Google Ads, the content repurposing. think that's probably like the easiest one.  night. We could probably set that up pretty quick. I think those are pretty good. The signals and notifications is something we are able to bring in from Clay, but it's not actionable from Clay unless we just want to send them into a sequence or send them somewhere.  So really thinking about like, you know, I like kind of creating like that digest so like the team, you know, the client can kind of see like, hey, you know, these three companies are really showing some high intent and like we can really make, you know, kind of make ourselves really valuable like the agency.  So like, they are always seeing like, we're sending like stuff to them. So I think those are, that's probably like, it's maybe like the more most custom.  So I can, if you're, yeah, if you're open to it, man, like we can just get started tomorrow. And just kind of prioritize these things that I got, like you can see, like I have a, I have a whole list of like ideas I can invite you to Slack and like, I can just start throwing all these things in Slack and we can, then we can just figure out like what, what needs to, I guess you could probably look at some of the, yeah, yeah, yeah.
+
+15:19 - Leonid Shvorob (standartdevelop@gmail.com)
+  So how about this, you can invite me in Slack or somewhere, and then we have a list of your ideas, I will like review each one and I will say how much time and how much effort it will need, and we can calculate like highest ROI, what we can do now, what can have the fastest results for you, for your clients, and just start it like short list one or two things and then make things done.  And after it's done, we can think what's the next, something like that.
+
+15:53 - Bill Murphy
+  I love that. And I, I have, I have the Claude, the Anthropics. So access. I have, is that basically all we need there?  Or do we, should we, what else do we need to, do I need to get started here?
+
+16:12 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. So first is good to like, to explain to me what's, okay, let's start from repurposing. Yeah. Because it's, I think more easy to discuss now.  So like you have one form of content and you want to create like for, okay, you have like LinkedIn posts.  And you want to repurpose it into, I don't know, Instagram or post or on websites, like 10 formats.
+
+16:38 - Bill Murphy
+  Yeah.
+
+16:39 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. So we can, we can make the simple workflow when we have original data, like you push the button, like you choose what platform you want to repurpose, you put the button and you have the final results.  It's the most easy and we can make it like for tomorrow. And after this, can, okay, this we want after publish this.  think it's, it's, it's, We want, like, a human manually edit something, something like that.
+
+17:05 - Bill Murphy
+  Yes, okay.
+
+17:07 - Leonid Shvorob (standartdevelop@gmail.com)
+  So we can start with this, and when it will be done, I also review all other your ideas, and we can move forward.
+
+17:17 - Bill Murphy
+  Uh, sounds good. I guess, so do I, I guess when we start tomorrow, like, do I need to give you access to the API, and, like, then we'll plug it into the VS Code?
+
+17:30 - Leonid Shvorob (standartdevelop@gmail.com)
+  Like, how do, how do we kind of, okay, so, okay, uh, first, uh, I will need that you just explain me in words, uh, what exactly what you want to do, you can share your resources, I will check it, I will, like, build, uh, some MVP for you, you can check it, and, uh, something like this.  So, uh, about all access, I can tell you what we need, uh, when you explain me what kind of system, like, in details you want, you have in mind.
+
+17:58 - Bill Murphy
+  Okay. Yeah, cool. So, I will, I'll send over the offer now on Upwork, and then shoot me your email, and then I'll just invite you to Slack, and we can just chat there and kind of get things rolling, and hopefully it's a long-term relationship, and we can build some cool things together, man.
+
+18:16 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, sounds cool. I really like it. And yeah, it's like marketing stuff, it's almost my favorite, because yeah, it's pretty cool.
+
+18:25 - Bill Murphy
+  So do you have any other questions for me? Like, I know I did most of the talking here.
+
+18:31 - Leonid Shvorob (standartdevelop@gmail.com)
+  So I see you have a lot of ideas, and you just want to start, do it, like, for your team, and I think if you will, like, prioritize me what's the most important, what the less, it would be cool.  So we can align our goals and, like, expectations, something like that.
+
+18:55 - Bill Murphy
+  Yeah, that sounds good to me. I will, yeah, I'll put, like I said, I'll put all that stuff in.  I think we start with the contents, repurposing, and I'll make sure I prioritize the other ones and get a little bit more detail.  Right now, just have a notes app. In the notes app, I just added a bunch of just ideas. I can just make sure I add some more details to them.  I'll put them in Claude or something to kind of help share more information on what I'm looking for.
+
+19:23 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, that's cool.
+
+19:25 - Bill Murphy
+  Cool, man.
+
+19:28 - Leonid Shvorob (standartdevelop@gmail.com)
+  I will send you now my email. So about tomorrow, like you want to connect in the same time as we do now or a bit early or what do you think?
+
+19:40 - Bill Murphy
+  Yeah, let's do same time tomorrow. I will send you an invite. I'll just send it off to you once I get your email and then we'll just plan to talk.  And tomorrow we just do like an hour or so if that works and we can just kind of figure it out from there.
+
+19:55 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, it's cool. You can send me all information. I will do some research. So when we call again I will...  will... Well, more into context of your business and what you want, okay?
+
+20:04 - Bill Murphy
+  You got it. I appreciate it, man.
+
+20:06 - Leonid Shvorob (standartdevelop@gmail.com)
+  Looking forward to working with you. Yeah, sounds cool. So have a great day.
+
+20:11 - Bill Murphy
+  Yeah, you too. Take care.

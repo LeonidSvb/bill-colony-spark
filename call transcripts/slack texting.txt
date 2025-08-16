@@ -1,0 +1,616 @@
+
+
+bill
+This conversation is just between @bill and you. Check out their profile to learn more about them.
+
+
+Leo
+  3:48 PM
+joined Slack
+
+
+Leo
+  3:54 PM
+Hi Bill :wave:
+
+
+bill
+  3:55 PM
+Hey man I’ll send over some thoughts for the reporposing
+
+
+Leo
+  3:55 PM
+Go on!
+
+
+bill
+  4:09 PM
+First I think we have to drop information about the company ICP and our overall messaging strategy. Then we would drop in the YouTube video or transcript.
+Then instruct the agent to be a content strategist and repurpose. I'm guessing once we seed all the info above we can have it write a specific prompt for the client (or internal):
+This is taken from a prompt I use for our NetSuite consulting client:
+Strategic Analysis Required:
+1. Content Audit First, identify:
+Golden Nuggets: What are the most valuable, actionable insights shared?
+Pain Points: Which NetSuite challenges resonated most with the audience?
+Success Stories: Any case studies, metrics, or transformation stories mentioned?
+Expert Quotes: Memorable statements from our CRO/COO that position thought leadership
+Technical Deep Dives: Complex topics that warrant educational content
+2. Content Recommendations Based on your analysis, recommend ONLY content pieces that add genuine value. For each piece, specify:
+Format (LinkedIn post, carousel, PDF guide, infographic, quote graphic, etc.)
+Core Message (the single takeaway)
+Target Audience Segment (NetSuite admins, CFOs, operations managers, etc.)
+Distribution Channel (LinkedIn, email, website resource center)
+Expected Outcome (awareness, engagement, lead generation)
+3. YouTube Video Description Create an SEO-optimized description that:
+Hooks viewers with the most compelling insight
+Includes natural keyword placement for NetSuite-related searches
+Provides timestamped chapters based on topic shifts
+Ends with a clear next step for viewers
+4. Content Prioritization Rank your recommended assets by:
+Impact Potential (High/Medium/Low)
+Production Effort (Quick win vs. requires design)
+Urgency (time-sensitive NetSuite updates vs. evergreen tips)
+Guidelines:
+Quality over Quantity: Only suggest content if it genuinely helps NetSuite users
+Match Format to Message: Quick tips = text posts, complex processes = visual guides
+Repurpose Smart: One great insight might become both a quote graphic AND the hook for a carousel
+Stay Authentic: Maintain our CRO/COO's voice and expertise
+Drive Action: Every piece should move readers toward optimization excellence
+Output Format:
+Present your recommendations as a strategic brief, not a task list. Explain WHY each piece matters and HOW it serves our audience's journey from NetSuite frustration to optimization mastery.
+4:12
+I'd also wan to include Reddit for our repurposing channel and have it think about SEO/GEO -- whatever the SEO for LLMs is being called. Have it write a blog post about the video that we can add to our blog.
+Then if it recommends a PDF, I'd love to have it know the brand logo and colors and be able to create the PDF. Adding some visuals inside it if necessary.
+4:16
+Separately, I'd like to drop in a long form piece of written content, such as a PDF or blog post. And do the same thing -- analyze and think about how to extrapolate more content from it. Maybe the blog post turns into a carousel, infographic.
+A next level idea (not sure how many tokens this would require) --
+From any of the content, the agent can review a Clay table for all Reddit topics we've pulled in. THen if it sees a thread on a topic that was touched on in the video or long form content, it can call it out and provide a detailed comment in the brand or person's voice that a human can take and reply with
+
+
+Leo
+  4:22 PM
+Looks like you already put a lot of thoughts in it.  So from the first agent he just suggest a post, or later he should create post and publish it also?
+
+
+bill
+  4:25 PM
+Just suggest, then a human would review and make comments. Then approve.
+For things like the PDF idea -- once it's approved, it can draft the entire brief and send to the design agent. we'd want it in a google slide, PDF, Powerpoint -- something that is editable. Not an image. If that's not possible, just write it with visual ideas and then I' d take it and send it to the designer.
+
+
+Leo
+  4:28 PM
+I see two main improvements for this process:
+1. Use a scoring model like RICE or ICE instead of “High/Medium/Low” to remove subjectivity and prioritize based on impact and effort.
+2. Split the workflow into roles (Strategist → Recommender → Writer → Editor) to keep each step focused and reduce noise in the final output.
+
+
+bill
+  4:28 PM
+love it
+
+
+Leo
+  4:37 PM
+Workflow: 
+1. Agent generates an idea. 
+2. If approved, it creates a full draft in Google Slides using a pre-set template. 
+3. The draft includes all text and placeholder visuals from the visual notes. 
+4. In Slack, the designer gets the link and can approve, request edits, or switch the template. 
+5. Once confirmed, the designer finalizes visuals and exports the final version
+Start from that or include something else?
+
+
+bill
+  4:38 PM
+What about all the other ideas?
+4:38
+what if its an image or infographic... why would it just be in google slides?
+
+
+Leo
+  4:39 PM
+It's just logic for MVP, when it's work we can add all other options
+
+
+bill
+  4:39 PM
+but this is just assuming the suggestion is a PDF
+
+
+bill
+  4:40 PM
+I'd want it to make a recommendation that includes the format. I think it's more important to recommend the format and build out the brief. Having AI design it doesn't need to be in the MVP
+
+
+7 replies
+Last reply 22 hours agoView thread
+
+
+bill
+  4:41 PM
+and i want it to include the SEO aspects for YouTube, blog, etc. Maybe that includes doing some keyword and trend analysis on the topics discussed?
+
+
+Leo
+  4:44 PM
+I got you. Now I start working on the architecture, so when we have a call later it would be more valuable discussion
+Will you be online these hours?
+4:45
+So i could ask you about details on the way
+
+
+bill
+  4:45 PM
+sounds good! yes i'll be here for the most part
+:+1:
+1
+
+
+
+Leo
+  5:25 PM
+can you share examples of content you're already creating manually?
+need links to:
+2-3 best linkedin posts you've done
+youtube video with good description
+reddit comment in your voice (if any)
+recent blog post
+any pdf/guide you've made
+or you can share links on the resources, I will find by myself
+
+
+bill
+  5:26 PM
+i can send you a youtube video that we'd want to use for this
+:raised_hands:
+1
+
+5:27
+https://www.youtube.com/watch?v=tBGSurKRre4
+YouTubeYouTube | Nuage NetSuite Consultants
+How to Use AI to Transform Your NetSuite 
+
+5:30
+here's 2 things we created from that. i had the designer use what claude outputted. i dont think they're like the standard we should be going for though. we could definitely level up
+2 files
+ 
+
+Nuage - LinkedIn AI Carousel  281 29.pdf
+PDF
+
+6254 - CS - Nuage PDF guide_27052025.pdf
+PDF
+
+
+Leo
+  5:31 PM
+So this video is not created by your team, this is just a source of content, right
+
+
+bill
+  5:31 PM
+this is a client's video
+5:31
+it was a linkedin live
+
+
+Leo
+  5:33 PM
+Okay, so for this repurposing system you will use it as for you and your agency and also for your clients, right?
+
+
+bill
+  5:34 PM
+yes. i think we need to have different agent for each client. because we want to share a bunch of infomration about the ICP, messaging, etc
+
+
+Leo
+  5:35 PM
+Yes, we can make one for you and then just make it easy to control, so you can implement it for your clients as an extra service
+
+
+bill
+  5:35 PM
+perfect.
+
+
+Leo
+  5:36 PM
+And you often mention ICP and so on. Can you give me some context about what is your idea behind it? What's your vision, etc. So I can understand better your goals and align all the systems I built for these goals
+
+
+bill
+  5:36 PM
+what do you mean?
+5:36
+ICP is the ideal customer profile. its who we are targeting
+5:36
+each client is going to have a different target
+
+
+Leo
+  5:38 PM
+i know, I mean, if you can explain all use cases for what you wanna use this system, it will be good. and the first place where will be storing all input data will be AirTable. Is it okay for you?
+
+
+bill
+  5:38 PM
+i'm not following. i had shared what i think the full repurposing system could do above
+5:39
+the ICP would be helpful for the agent to know what to look for and think about what we would of value, I think
+
+
+Leo
+  5:39 PM
+example of the table
+image.png
+ 
+image.png
+
+
+bill
+  5:39 PM
+we don't use airtable. can we use google sheets?
+
+
+Leo
+  5:42 PM
+ok good! starting with Google Sheets but Airtable has advantages we'll need later:
+file uploads - PDFs directly in table vs links
+workflow statuses - proper approval flow (pending → approved → published)
+linked tables - separate table for each content format when it gets complex
+team permissions - when designer/others join with different access levels
+easy migration path - start simple in Sheets, move to Airtable when need later
+
+
+bill
+  5:42 PM
+got it ok -- lets go with your rec. want to make sure we get this right
+
+
+Leo
+  5:42 PM
+so airtable - ok?
+
+
+bill
+  5:42 PM
+yes
+
+
+Leo
+  5:43 PM
+And one big advantage is that it's easy to use with MCP, so it's working more reliably in my experience.
+:raised_hands:
+1
+
+
+
+Leo
+  8:23 PM
+Yo Bill !
+On our call let's set up all the credentials right away so everything I build belongs to you and you have full control. This will save us tons of time down the road so better to do it upfront.
+Perfect that we have a call lined up - let's knock this out then ;)
+We'll need to register accounts and get API keys for:
+- n8n.cloud (the automation platform itself)
+- Google Cloud (for access to Docs, Sheets, Slides, Drive)
+- OpenAI (for AI content analysis)
+- Airtable
+It's all quick and one-time setup, then everything runs automatically.
+Sound good?
+
+
+bill
+  9:02 PM
+I dont want to use n8n. When did that come in?
+9:03
+can't we do everything in claude or cursor?
+9:04
+why OpenAI when we have other tools like Gemini Pro and Claude?
+We have Google Workspace so should cover Cloud
+
+
+Leo
+  9:06 PM
+just to clarify - n8n isn’t some extra tool I threw in, it’s the backbone that actually runs everything automatically: connects APIs, moves data between Google Docs, Sheets, Airtable, triggers things on changes, schedules stuff, etc.
+Claude and Cursor are great for AI writing and coding - I use them too - but they don’t run anything. No API calls, no triggers, no real-time syncs.
+Without n8n or something similar, we’d either be doing things manually or building and hosting custom scripts — which is 10x more time and hassle.
+
+
+bill
+  9:07 PM
+I dont think we're on the same page here
+https://docs.anthropic.com/en/docs/claude-code/sub-agents
+AnthropicAnthropic
+Subagents - Anthropic
+Create and use specialized AI subagents in Claude Code for task-specific workflows and improved context management. (149 kB)
+https://docs.anthropic.com/en/docs/claude-code/sub-agents
+
+9:11
+We talked about Claude yesterday.  Why would we be using n8n today and zero mention of Claude today?
+
+
+Leo
+  9:12 PM
+Okay, let's clarify everything today on the call
+
+
+bill
+  9:12 PM
+Have you used Claude and subagents? It seems like we had a miscommunication
+
+
+Leo
+  9:13 PM
+I'm using Claude Code when I'm developing complex projects that need coding. If talking about MCP that we talked before, it can be used through cloud desktop application that you can use from your computer
+
+
+bill
+  9:15 PM
+I want to build the agents in claude. Subagents I guess they call them
+9:17
+It doesn't seem like we're doing that. I'm not sure how we could be building something with a bunch of tools we never discussed and not focused on what did.
+If this isn't your expertise thats's fine. No problem. Let's end the contract so I can find someone who is proficient here.
+
+
+Leo
+  9:18 PM
+Just to clarify -
+Claude Subagents are specialized AI assistants that work inside Claude Code. They are used for developer tasks like code review, debugging, testing, and documentation.
+They operate only within Claude’s terminal or IDE environment.
+They cannot:
+– Trigger workflows
+– Run on a schedule
+– Call external APIs
+– Be used outside of the Claude Code context
+In short: Subagents are for assisting with code, not for automation or orchestration
+
+
+bill
+  9:21 PM
+That's not accurate.
+9:22
+I literally just found a video of someone using a subagent to repurpose a youtube video in like 3 minutes. I don't think we're on the same page.
+9:22
+https://youtu.be/elZOUvLlKDY?si=ddNfBJguilFP0rR9&t=393 (edited) 
+9:25
+there are tons of videos doing this. i got the inspiration for the post from watching a video on claude agents. I don't know where you're pulling info that it's not possible.
+
+
+Leo
+  9:26 PM
+Appreciate you sharing that - this helps clarify where the confusion is coming from.
+What the video shows is exactly what Claude Subagents + MCP are great for: AI-assisted execution inside Claude or Cursor. You dictate or type your intent, the subagent takes over, and with configured MCP tools, it can fetch analytics, generate content, or even push ideas.
+But key point: this still happens within an interactive session - nothing runs on its own, nothing is scheduled, and it doesn't auto-orchestrate steps across systems unless manually invoked or wrapped in custom automation logic.
+So yes - if your goal is to *work inside Claude/Cursor* and run advanced agents like that interactively, I can fully support that. And I can help build out subagents and configure MCP tools to match exactly what you need.
+But if you're expecting a hands-free, end-to-end system that repurposes content, distributes it, and logs it -  that still requires either human-in-the-loop or external orchestration.
+Let’s sync on your exact goals, and I’ll design the setup accordingly
+
+
+bill
+  9:29 PM
+I dont think we ever talked about distributing content
+
+
+bill
+  10:06 PM
+https://youtu.be/elZOUvLlKDY?si=ddNfBJguilFP0rR9&t=393 video
+Claude subagent https://docs.anthropic.com/en/docs/claude-code/sub-agents
+
+
+Leo
+  10:41 PM
+Just watch the video
+Now things super clear. I see you follow the advice in the end of the video  ;)
+So for now I will just replicate all marketing sub agents that this guy use in his video and then help you to implement it fast into coursor (it has more simple interface so good place to start)
+
+
+bill
+  11:08 PM
+Great stuff. My understanding is instead of using n8n, we could just connect the subagents in cursor. So 1 subagent can pull multiple pieces of data and do its thing. then we can send to another, if needed. or to airtable..whatever.  Should take out the need for n8n I've read but well see
+
+
+Leo
+  11:18 PM
+So stuff like n8n we use when we don't want always do it by ourselves and want it running on some schedule or triggers
+So basically n8n can do the same job as you when you sleep using the same tools
+11:19
+But better if first you have clear understanding how to do it by yourself so then you can choose if you want you automated or not, sometimes it's more easy to buy yourself if the task is always a little bit different if you have many different clients
+
+
+bill
+  11:20 PM
+for the content repurposing, we'll just manually start the process every time. A webinar or podcast will finish, then we'll take it from there.
+:+1:
+1
+
+
+
+Leo
+  11:21 PM
+If you have a lot of zoom meetings and video calls we can create a sub agent that will help you to generate assets for your clients based on transcription, I always use it and it's pretty helpful
+
+
+bill
+  11:22 PM
+Yes! For our client, one thing we want to do is take their calls in Fathom and then use it to create social posts for LinkedIn in their voice
+
+
+Leo
+  11:22 PM
+That simple but very valuable yeah
+11:23
+And watching the tutorial I got the idea that we can create a workflow that not only take transcription from video but also making screenshot when speaker sharing the screen and show some available information and then use all this information to generate step by step plans guides for our self and instructions, assets etc, if you watch a lot of expert content for your Niche it's also could be helpful
+
+
+bill
+  11:24 PM
+thats a great idea.
+
+
+Leo
+  11:25 PM
+I will start from your video, and  will send you updates as I have a good news :clap:
+New
+
+
+bill
+  11:37 PM
+I think we have a table or google drive setup with the brand's ICP, messaging, etc.
+Every time the subagent runs, it makes sure to learn about the brand using these documents.
+Then goes through the analysis, finding the content, scoring, hooks, editing, etc.
+I can then manually approve or talk through specific pieces of content to get it right. So we can cap the number of assets it creates.
+once approved, it can generate the content and/or design brief (for images, pdfs). We can ideally do this one at a time so I can edit or make comments.
+Once they're ready, we take them and schedule them or design/edit them
+basically we build this pack and then can duplicate it for every client.  Ideally these projects are continually being updated and learning what each client likes. so the subagents keep getting smarter.
+Claude inside Cursor: best practices
+Keep the Pack and orchestrator prompts as files; ask Claude to “use text from prompts/orchestrator.md” rather than pasting giant blobs each time.
+Use a two‑pass approach to reduce token load and improve quality (analysis first, drafts second).
+Lock in hook patterns and banned claims in the Pack so Claude doesn’t drift.
+
+
+bill
+  12:15 AM
+Here's some more detail. I'm just talking through this with claude. I'm not sure if we need to have packs or not.
+Client Content Strategist Subagent - Complete Brief for Leo
+Overview
+A reusable subagent that loads client-specific packs, analyzes source content (YouTube/transcript/long-form text), proposes channel-agnostic opportunities scored by ICE, and produces items one-by-one with human approval. Every run includes a newsletter version.
+The Two Packs (Preload for Each Client)
+1. Client Strategist Pack
+Purpose: Who we're speaking to, what change we're driving, and which offers/CTAs to use.
+Required contents:
+ICP: titles, company size/geo, disqualifiers
+Top 3-5 pains and jobs-to-be-done
+Offers and CTA links; when to use each
+Common objections with one-line responses
+Why-now angles for the next 60-90 days
+POV do/don't statements (2-3)
+Constraints/no-go claims
+Primary success metric (e.g., meetings, opps)
+Review owner and update trigger
+Format: ≤1,200 words, bullet-heavy, stored at /Clients/[Client]/Packs/01-Strategist-Pack-v1.0.md
+2. Brand & Messaging Pack
+Purpose: How we sound and what story we tell.
+Note: You'll provide all details for this pack and keep it under 1,000 words.
+Format: Stored at /Clients/[Client]/Packs/02-Brand-Messaging-v1.0.md
+Session Configuration
+Parameters (set at start)
+Client: [Name]
+Allowed channels: LinkedIn text post, Carousel, Infographic, PDF guide, Blog post, Quote graphic, YouTube description
+Always include: Newsletter version
+Cap per session: 3 items (default)
+Output naming: [ClientCode]-[YYYYMMDD]-[Channel]-[TopicSlug]
+Operating Constraints (state explicitly)
+Operating constraints:
+- No external API calls or autopublish
+- Never mix client data; this session is for [Client] only
+- Max tokens per draft: 1,500
+- If unsure about brand fit, flag for human review
+- Check Published table to avoid repeating hooks/angles from last 30 days
+Step-by-Step Workflow
+1. Load packs and confirm
+"Load and internalize these packs for [Client]:
+1. Strategist Pack: [paste or link]
+2. Brand & Messaging Pack: [paste or link]
+
+Summarize in 8 bullets covering ICP, pains, offers, voice, messaging approach, and any constraints. Ask me to confirm before continuing."
+2. Ingest source content
+"Source content: [YouTube link or transcript]
+Confirm runtime/length. If transcript lacks timestamps, ask for 3 high-contrast moments with rough times."
+3. Analysis pass (no drafting)
+"Extract 10-15 key moments with timestamps under these headings:
+- Golden Nuggets (insights worth repurposing)
+- Pain Points (map to our narratives)
+- Success Stories/Expert Quotes
+- Technical Deep Dives (merit visual formats)
+
+For each, note the ICP segment it serves and relevant messaging pillar."
+4. Opportunity Finder
+"Propose content opportunities across allowed channels. For each opportunity include:
+- Working title/hook
+- Recommended format
+- Target ICP segment and pain addressed
+- ICE score (Impact 0-10 +2 BOFU, Confidence 0-10, Ease 0-10)
+- 1-2 line rationale
+
+Sort by ICE total. Do not force a count. Ask which items to produce (remind me of cap)."
+5. Selection and hook tuning
+"I'll select items (e.g., 'Produce #1, #3, #6').
+For each selected item, propose 2-3 alternative hooks/titles.
+Wait for hook approval before drafting."
+6. Item-by-item production
+For copy-based items (LI, blog, newsletter):
+"Draft [item] using brand voice. List any verify/soften risks. Pause for edits."
+
+For design-based items (carousel, infographic, PDF):
+"Create designer brief:
+- Purpose and audience
+- Core message
+- Page/slide outline (title + 2-3 bullets each)
+- Visual cues and chart prompts
+- Brand colors and logo placement
+- Copy blocks to paste
+Pause for edits."
+
+After each: "Approved? If yes, log as completed and say 'Next' to continue."
+7. Newsletter production (always)
+"Create standalone newsletter:
+- Subject (5-7 words) and preview text (35-60 chars)
+- Lead story (answer-first, ties to source)
+- 1-2 sections summarizing approved items
+- One CTA matching brand style
+Pause for edits."
+8. Wrap-up
+"Session summary:
+- Approved items: [title + channel + goal]
+- Risks to verify: [list]
+- Next actions for VA/designer: [who does what]
+
+Log these hooks/topics as 'used' with today's date."
+Channel Formatting Rules (Built into Orchestrator)
+LinkedIn text: 120-220 words, hook in first 2 lines, 1 CTA, ≤3 hashtags
+Carousel/Infographic: 6-10 slides/sections, visual hierarchy, one idea per slide
+PDF guide: 8-14 pages, executive summary, clear sections, visual breaks
+Blog: 700-900 words, answer-first summary, H2/H3, 3-5 FAQs, slug + meta
+Quote graphic: One powerful line, speaker attribution, brand colors
+YouTube description: Hook, natural keywords, timestamped chapters, CTA
+Newsletter: Subject + preview, lead story, 1-2 supporting sections, one CTA
+Error Recovery Patterns
+If you encounter:
+- Missing timestamps → Ask for 3 key moments with rough times
+- Conflicting pack guidance → Strategist Pack overrides; flag conflict
+- Token limit approaching → Complete current item, then pause
+- No high-ICE opportunities → Show top 3 anyway with notes
+Session State Tracking
+Current session:
+- Client: [Name]
+- Source: [Title/Link]
+- Items selected: [#1, #3, #6]
+- Items completed: [2/3]
+- Channel mix: [2 LI, 1 PDF]
+Handoff Format for VA/Designer
+Asset: [Title]
+Channel: [Type]
+Status: Approved
+File location: /Clients/[Client]/Content/Packets/[Date]/[filename]
+Due date: [Publish date]
+Dependencies: [Design needed? Editor review?]
+CTA link: [URL]
+Special notes: [Any customization]
+ICE Scoring Guidelines
+Impact (0-10): Directly advances buyer to action; +2 if BOFU (addresses objection/offer)
+Confidence (0-10): Can defend the claims made; clear examples 7-9; opinion 4-6
+Ease (0-10): Ready with light edit 8-10; needs design 5-7; heavy research 2-4
+Maintenance and Learning
+After each session: "What pattern should we add to Brand & Messaging?"
+Pack updates: When patterns repeat 2+ times or offers change
+
+
+Leo
+  9:53 AM
+Okay, that's good place to start
+But better do every sub agent for every function not just one big with a lot of functions
+9:54
+Today will test all prompt
