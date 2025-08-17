@@ -27,10 +27,10 @@
 
 ## 🚀 SCALING PHASE (Week 3)
 - [ ] **Lesson 7:** Multi-Client Setup ✅ (Date: _____)
-- [ ] **Lesson 8:** Team Training Materials ✅ (Date: _____)
+- [ ] **Lesson 8:** Advanced Workflow Optimization ✅ (Date: _____)
 - [ ] **Lesson 9:** Troubleshooting & Optimization ✅ (Date: _____)
 
-**Week 3 Goal:** Bill can teach team and scale operation
+**Week 3 Goal:** Bill masters advanced workflows and operates independently
 
 ---
 
@@ -57,7 +57,7 @@ Bill successfully completes when he can:
 - [ ] Set up Claude subagent from scratch (30 min)
 - [ ] Process YouTube video → multiple content formats (20 min)
 - [ ] Create client pack for new client (45 min)
-- [ ] Train team member to use system (2 hours)
+- [ ] Document complete workflow (2 hours)
 - [ ] Troubleshoot common issues independently
 
 ---

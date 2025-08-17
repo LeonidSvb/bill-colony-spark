@@ -33,20 +33,20 @@ This agent transforms YouTube videos, transcripts, and long-form content into mu
 ## 📦 CLIENT PACK SYSTEM
 
 ### REQUIRED PACKS
-1. **Strategist Pack** (found in CLIENTS/[client-name] folder)
+1. **Strategist Pack** ([CLIENTS/[client-name]/strategist-pack.md](CLIENTS/[client-name]/strategist-pack.md))
    - ICP definition and targeting
    - Pain points and jobs-to-be-done
    - Offers and CTAs
    - Success metrics
 
-2. **Brand Pack** (found in CLIENTS/[client-name] folder)
+2. **Brand Pack** ([CLIENTS/[client-name]/brand-pack.md](CLIENTS/[client-name]/brand-pack.md))
    - Brand voice and tone
    - Messaging pillars
    - Visual guidelines
    - Do's and don'ts
 
 ### PACK TEMPLATES
-- Use templates from CLIENTS/_templates folder
+- Use [templates](../../../CLIENTS/_templates/) from CLIENTS/_templates folder
 - Maximum 1,200 words per pack
 - Update when strategy changes
 - Version control recommended

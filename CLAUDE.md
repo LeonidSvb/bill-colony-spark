@@ -7,6 +7,9 @@ Marketing automation project for Bill Murphy's Colony Spark agency.
 - `git status` - Check repository status
 - `git add .` - Stage all changes
 - `git commit -m "message"` - Commit changes with Claude Code attribution
+- `update project status` - Add new session log to PROJECT/project-status.md
+- `update README weekly` - Update README based on week's progress from project-status.md
+- `generate slack update` - Create casual Slack message from latest session for Bill
 
 ## File Structure Conventions
 - Use kebab-case for file names
@@ -51,3 +54,4 @@ Marketing automation project for Bill Murphy's Colony Spark agency.
 - Manual changelog update: `npm run changelog`
 - Force changelog with version: `npm run changelog:version "1.1.0"`
 - Always use descriptive, valuable names.
+- "ALWAYS write in English - no Russian text in any files

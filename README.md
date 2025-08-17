@@ -3,8 +3,8 @@
 **Project:** AI-powered marketing automation using Claude Code subagents  
 **Client:** Bill Murphy  
 **Duration:** 30 days (Aug 16 - Sep 15, 2025)  
-**Goal:** Build reusable subagent system for 2 hours → 15 minutes content creation
-**End Goal:** Bill independently operates Claude subagent workflows for all marketing tasks
+**Goal:** Build ultimate content repurposer that extracts viral moments from YouTube/podcasts
+**End Goal:** Bill creates LinkedIn posts, newsletters, TikTok captions with viral scoring (1-100)
 
 ---
 
@@ -37,12 +37,16 @@ Bill-Colony-Spark/
 
 ## 🔧 Key Components
 
-### 🤖 Content Repurposer Subagent
-- **Type:** Specialized Claude Code subagent with dedicated context
-- **Input:** YouTube videos, transcripts, Fathom recordings, long-form content
-- **Output:** LinkedIn posts, PDF guides, carousels, blog posts, newsletters, Reddit comments
-- **Intelligence:** ICE scoring system, automatic format recommendation
-- **Workflow:** Load client packs → Analyze content → Score opportunities → Generate assets
+### 🤖 Ultimate Content Repurposer Agent
+- **Input:** Long-form YouTube videos (30-90 minutes), podcast episodes, content links
+- **Core Function:** Extract best viral moments with 4 hooks per piece
+- **Viral Scoring:** 1-100 scale for virality potential with justification
+- **Multi-Platform Output:**
+  - **X (Twitter):** Body copy + hooks
+  - **LinkedIn:** Professional posts + captions  
+  - **TikTok/Reels/Shorts:** Optimized captions
+  - **Newsletter:** Long-form post adaptation
+- **ICE Framework:** Impact, Confidence, Ease scoring for prioritization
 
 ### 👥 Client System  
 - **Multi-Client Setup:** Each client has dedicated folder with packs
@@ -56,20 +60,21 @@ Bill-Colony-Spark/
 - **Workflows:** Documented processes for content creation
 - **Best Practices:** Templates and guidelines for consistent quality
 
-### 🛠️ Subagent Architecture
-- **Claude Code:** Primary environment with intelligent task routing
-- **Specialized Subagents:** Content Repurposer, SEO Analyzer, CRO Optimizer
-- **MCP Tools:** YouTube extraction, Airtable integration, Google Workspace
-- **Proactive Delegation:** Automatic subagent selection based on task type
-- **Context Management:** Separate context windows for each specialized function
-- **Reusable Framework:** Project-level subagents for consistent workflows
+### 🛠️ Subagent Architecture (From Real Video Analysis)
+- **Content Repurposer:** Main agent with YouTube/podcast analysis capabilities
+- **AB Test Orchestrator:** Generates test ideas with impact/confidence/ease scoring
+- **SEO Analyzer:** Content optimization with Href's MCP integration
+- **Marketing Automation:** B2B personalized content generation
+- **Real-time Creation:** Live subagent building during Claude Code sessions
+- **Command Activation:** Use `/agents` to activate subagent system
+- **MCP Integration:** YouTube extraction, SEO tools, marketing platforms
 
 ## 📊 Current Status
 
 **Week 1 Progress:** 20% complete  
 **Next Milestone:** Working content repurposer MVP  
-**Key Metrics:** 0 subagents operational (target: 5+ specialized subagents)
-**Success Criteria:** Bill independently creates and manages subagent workflows
+**Key Metrics:** 0 viral content pieces created (target: 50+ scored viral moments)
+**Success Criteria:** Bill extracts 4 viral hooks per video with 1-100 viral scoring
 
 ## 🆘 Support & Documentation
 
@@ -80,15 +85,15 @@ Bill-Colony-Spark/
 
 ---
 
-## 🚀 Getting Started with Subagents
+## 🚀 Getting Started with Content Repurposing
 
-1. **Setup Claude Code:** Install and configure with MCP tools
-2. **Load Subagents:** Import project-level subagents from AGENTS folder
-3. **Test Workflow:** Use `/agents` command to activate Content Repurposer
-4. **Practice Delegation:** Let Claude automatically route tasks to specialists
-5. **Build Library:** Create reusable subagents for each client and function
+1. **Install yt-dlp:** Setup YouTube transcription (completed ✅)
+2. **Create Content Repurposer:** Build ultimate repurposing subagent
+3. **Feed Long-form Content:** Input 30-90 minute videos/podcasts
+4. **Extract Viral Moments:** Get 4 hooks per piece with viral scores
+5. **Generate Multi-Platform:** Create X, LinkedIn, TikTok, newsletter content
 
-**End Goal:** Bill operates complete subagent ecosystem independently by month end
+**End Goal:** Bill transforms hours of content into dozens of viral-ready posts automatically
 
 **Questions?** Check [PROJECT folder](PROJECT/) for updates or review [call transcripts](PROJECT/call-transcripts/) for detailed discussions.
 
