@@ -23,7 +23,8 @@
       "Bash(/agents)",
       "WebFetch(domain:youtu.be)",
       "Bash(mv:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

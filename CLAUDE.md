@@ -7,8 +7,8 @@ Marketing automation project for Bill Murphy's Colony Spark agency.
 - `git status` - Check repository status
 - `git add .` - Stage all changes
 - `git commit -m "message"` - Commit changes with Claude Code attribution
-- `update project status` - Add new session log to PROJECT/project-status.md
-- `update README weekly` - Update README based on week's progress from project-status.md
+- `update project status` - Add new session log to PROJECT-REPORT.md
+- `update README weekly` - Update README based on week's progress from PROJECT-REPORT.md
 - `generate slack update` - Create casual Slack message from latest session for Bill
 
 ## File Structure Conventions
@@ -48,10 +48,18 @@ Marketing automation project for Bill Murphy's Colony Spark agency.
   ```
 - Check git status before and after commits
 
+## Session Logging Rules
+- **Multiple sessions per day:** Separate entries for different focuses/contexts
+- **Single session per day:** Combine if <30min and same topic
+- **Session naming:** Use "Aug 17.1", "Aug 17.2" for multiple or "Aug 17" for single
+- **When to separate:** Different tasks, >1hr break, context change
+- **When to combine:** Related work, quick fixes, same workflow
+- **Update PROJECT-REPORT.md:** Add new session immediately after completion
+
 ## Automation Features
 - Changelog automatically updates on every push to main
 - GitHub Actions validate structure and deploy docs
 - Manual changelog update: `npm run changelog`
 - Force changelog with version: `npm run changelog:version "1.1.0"`
-- Always use descriptive, valuable names.
-- "ALWAYS write in English - no Russian text in any files
+- Always use descriptive, valuable names
+- ALWAYS write in English - no Russian text in any files
