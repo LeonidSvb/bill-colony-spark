@@ -1,9 +1,9 @@
-# 🎯 Пример: NetSuite Контент-Стратегия
+# 🎯 Example: NetSuite Content Strategy
 
-## Контекст
-Реальный промпт, используемый для NetSuite консалтингового клиента (из Slack переписки Bill → Leo).
+## Context
+Real prompt used for NetSuite consulting client (from Bill → Leo Slack conversation).
 
-## Полный рабочий промпт
+## Complete Working Prompt
 
 ```
 Strategic Analysis Required:
@@ -44,19 +44,19 @@ Output Format:
 Present your recommendations as a strategic brief, not a task list. Explain WHY each piece matters and HOW it serves our audience's journey from NetSuite frustration to optimization mastery.
 ```
 
-## Дополнения от Bill
+## Bill's Additions
 
-### SEO/GEO оптимизация:
-- Включить Reddit как канал репурпозинга
-- Учитывать SEO для LLM (новый тренд)
-- Создавать блог-посты для сайта на основе видео
+### SEO/GEO optimization:
+- Include Reddit as a repurposing channel
+- Consider SEO for LLM (new trend)
+- Create blog posts for website based on videos
 
-### PDF создание:
-- Агент должен знать брендинг (логотип, цвета)
-- Создавать PDF с визуальными элементами
-- Давать указания для дизайнера если не может сам
+### PDF creation:
+- Agent should know branding (logo, colors)
+- Create PDFs with visual elements
+- Give instructions to designer if can't do it themselves
 
-### Интеграция с Reddit:
+### Reddit Integration:
 ```
 From any of the content, the agent can review a Clay table for all Reddit topics we've pulled in. 
 Then if it sees a thread on a topic that was touched on in the video or long form content, 
@@ -64,32 +64,32 @@ it can call it out and provide a detailed comment in the brand or person's voice
 that a human can take and reply with
 ```
 
-## Результаты использования
+## Usage Results
 
-**Созданные материалы** (от Bill):
+**Created materials** (by Bill):
 - LinkedIn AI Carousel PDF
 - NetSuite PDF guide 
-- YouTube видео: "How to Use AI to Transform Your NetSuite"
+- YouTube video: "How to Use AI to Transform Your NetSuite"
 
-**Отзыв**: "i dont think they're like the standard we should be going for though. we could definitely level up"
+**Feedback**: "i dont think they're like the standard we should be going for though. we could definitely level up"
 
-## Ключевые принципы
+## Key Principles
 
-1. **Качество > Количество**: Рекомендовать только действительно ценные материалы
-2. **Формат = Сообщение**: Быстрые советы = текстовые посты, сложные процессы = визуальные гайды  
-3. **Умное репурпозинг**: Одна инсайт = несколько форматов
-4. **Сохранение голоса**: Поддерживать экспертность CRO/COO
-5. **Движение к действию**: Каждый материал должен продвигать к оптимизации
+1. **Quality > Quantity**: Recommend only truly valuable materials
+2. **Format = Message**: Quick tips = text posts, complex processes = visual guides  
+3. **Smart repurposing**: One insight = multiple formats
+4. **Voice preservation**: Maintain CRO/COO expertise
+5. **Drive to action**: Every material should move toward optimization
 
-## Применение к другим нишам
+## Application to Other Niches
 
-Этот промпт можно адаптировать, заменив:
-- "NetSuite" → [ваша индустрия]
-- "CRO/COO" → [ваши эксперты]
-- Аудитория сегменты → [ваша ICP]
-- Специфичные боли → [боли вашей ниши]
+This prompt can be adapted by replacing:
+- "NetSuite" → [your industry]
+- "CRO/COO" → [your experts]
+- Audience segments → [your ICP]
+- Specific pains → [your niche pains]
 
-## Связанные материалы
+## Related Materials
 - `../Prompts/content_repurposing_agent.md`
 - `../Templates/ice_scoring_system.md`
 - `YouTube`: https://www.youtube.com/watch?v=tBGSurKRre4

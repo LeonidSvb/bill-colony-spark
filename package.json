@@ -1,0 +1,32 @@
+{
+  "name": "bill-colony-spark",
+  "version": "1.0.0",
+  "description": "Marketing automation project for content repurposing with Claude subagents",
+  "scripts": {
+    "check": "npm run check:markdown && npm run check:links && npm run check:structure",
+    "check:markdown": "markdownlint **/*.md --ignore node_modules",
+    "check:links": "markdown-link-check **/*.md",
+    "check:structure": "node scripts/check-structure.js",
+    "fix": "npm run fix:markdown",
+    "fix:markdown": "markdownlint **/*.md --ignore node_modules --fix",
+    "build": "npm run check && node scripts/build-docs.js",
+    "validate": "npm run check",
+    "lint": "npm run check:markdown",
+    "test": "npm run validate",
+    "changelog": "node scripts/update-changelog.js",
+    "changelog:version": "node scripts/update-changelog.js"
+  },
+  "keywords": [
+    "marketing",
+    "automation",
+    "claude",
+    "content-repurposing",
+    "ai-agents"
+  ],
+  "author": "Bill Murphy - Colony Spark",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "markdown-link-check": "^3.11.2"
+  }
+}

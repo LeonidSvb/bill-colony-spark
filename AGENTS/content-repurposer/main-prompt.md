@@ -1,9 +1,9 @@
-# 🤖 Промпт: Контент-Репурпозинг Агент
+# 🤖 Prompt: Content Repurposing Agent
 
-## Описание
-Универсальный агент для перепрофилирования контента из YouTube видео, подкастов и длинных текстов в различные форматы для социальных сетей и маркетинга.
+## Description
+Universal agent for repurposing content from YouTube videos, podcasts and long texts into various formats for social media and marketing.
 
-## Полный Промпт
+## Complete Prompt
 
 ```
 Client Content Strategist Subagent - Complete Brief
@@ -137,14 +137,14 @@ Log these hooks/topics as 'used' with today's date."
 - **Ease (0-10)**: Ready with light edit 8-10; needs design 5-7; heavy research 2-4
 ```
 
-## Применение
+## Application
 
-Этот промпт идеально подходит для:
-- Агентств, работающих с множественными клиентами
-- Систематического перепрофилирования контента
-- Обеспечения качества и соответствия бренду
-- Приоритизации контента по воздействию
+This prompt is ideal for:
+- Agencies working with multiple clients
+- Systematic content repurposing
+- Ensuring quality and brand compliance
+- Content prioritization by impact
 
-## Связанные материалы
+## Related Materials
 - `../Templates/ice_scoring_system.md`
 - `../Examples/netsuite_content_strategy.md`

@@ -21,30 +21,32 @@ This agent transforms YouTube videos, transcripts, and long-form content into mu
 - LinkedIn posts (120-220 words)
 - PDF guides (8-14 pages) 
 - Carousels/Infographics (6-10 slides)
-- Blog posts (700-900 words)
+- Blog posts (700-900 words) with SEO optimization
 - Quote graphics (single line + attribution)
 - YouTube descriptions (SEO optimized)
-- Newsletter content
+- Newsletter content (always included)
+- Reddit comments (brand voice responses)
+- Design briefs for visual content
 
 ---
 
 ## 📦 CLIENT PACK SYSTEM
 
 ### REQUIRED PACKS
-1. **Strategist Pack** (`client-packs/[client]-strategist.md`)
-   - ICP definition
+1. **Strategist Pack** (found in CLIENTS/[client-name] folder)
+   - ICP definition and targeting
    - Pain points and jobs-to-be-done
    - Offers and CTAs
    - Success metrics
 
-2. **Brand Pack** (`client-packs/[client]-brand.md`)
+2. **Brand Pack** (found in CLIENTS/[client-name] folder)
    - Brand voice and tone
    - Messaging pillars
    - Visual guidelines
    - Do's and don'ts
 
 ### PACK TEMPLATES
-- Use templates in `client-packs/templates/`
+- Use templates from CLIENTS/_templates folder
 - Maximum 1,200 words per pack
 - Update when strategy changes
 - Version control recommended
@@ -105,20 +107,15 @@ This agent transforms YouTube videos, transcripts, and long-form content into mu
 
 ```
 content-repurposer/
-├── prompts/
-│   ├── analyzer.md
-│   ├── opportunity-finder.md
-│   ├── format-creators/
-│   └── quality-controller.md
-├── client-packs/
-│   ├── templates/
-│   ├── nuage-strategist.md
-│   └── nuage-brand.md
-├── examples/
-│   ├── input-samples/
-│   ├── output-samples/
-│   └── before-after/
-└── README.md (this file)
+├── main-prompt.md         # Core agent prompt for Claude Code
+├── generated/             # Output content organized by date
+├── examples/              # Sample inputs and outputs
+└── README.md             # This documentation
+
+Related folders:
+../CLIENTS/[client-name]/   # Client-specific packs and configs
+../KNOWLEDGE/               # ICE scoring and content strategies
+../TRAINING/                # Usage guides and best practices
 ```
 
 ---

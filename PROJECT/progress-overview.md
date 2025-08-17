@@ -1,16 +1,16 @@
 # 🚀 BILL MURPHY - COLONY SPARK PROJECT
 
-## 📊 ОБЩИЙ ПРОГРЕСС
-**Старт проекта:** August 16, 2025  
-**Длительность:** 30 дней  
-**Цель:** Автоматизация контент-репурпосинга с Claude субагентами
+## 📊 OVERALL PROGRESS
+**Project Start:** August 16, 2025  
+**Duration:** 30 days  
+**Goal:** Automate content repurposing with Claude subagents
 
 ### PROGRESS BAR
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ **20%** (6/30 дней)
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ **20%** (6/30 days)
 
 ---
 
-## 🎯 ОСНОВНЫЕ MILESTONES
+## 🎯 MAIN MILESTONES
 
 ### ✅ WEEK 1: FOUNDATION (Days 1-7)
 - [ ] Claude Desktop + MCP setup (Bill)

@@ -1,0 +1,57 @@
+name: 📝 Auto-Update Changelog
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (optional)'
+        required: false
+        type: string
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Need full history for changelog
+        token: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: 🔧 Install dependencies
+      run: npm ci
+      
+    - name: 📝 Update changelog
+      run: |
+        if [ -n "${{ github.event.inputs.version }}" ]; then
+          npm run changelog:version "${{ github.event.inputs.version }}"
+        else
+          npm run changelog
+        fi
+      
+    - name: 🚀 Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add CHANGELOG.md
+        
+        if git diff --staged --quiet; then
+          echo "📝 No changelog updates needed"
+        else
+          git commit -m "📝 Auto-update changelog
+          
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+          
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git push
+          echo "✅ Changelog updated successfully"
+        fi

@@ -1,0 +1,79 @@
+name: 📚 Documentation Auto-Update
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Valuable_Assets/**'
+      - 'PROJECT-MANAGEMENT/**'
+      - 'CLAUDE.md'
+      - 'README.md'
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: 🔧 Install dependencies
+      run: npm ci
+      
+    - name: 🔍 Validate project structure
+      run: npm run check:structure
+      
+    - name: 📝 Check markdown quality
+      run: npm run check:markdown
+      
+    - name: 🔗 Validate links
+      run: npm run check:links
+      continue-on-error: true
+      
+    - name: 📝 Update changelog
+      if: github.ref == 'refs/heads/main'
+      run: |
+        npm run changelog
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add CHANGELOG.md
+        if git diff --staged --quiet; then
+          echo "No changelog changes needed"
+        else
+          git commit -m "📝 Auto-update changelog
+          
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+          
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git push
+        fi
+      
+    - name: 📚 Build documentation
+      run: npm run build
+      
+    - name: 🚀 Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        
+    - name: 💬 Comment on PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '✅ Documentation validation passed! Preview will be available after merge.'
+          })

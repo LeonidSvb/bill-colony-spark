@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(claude --dangerously-skip-permissions)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(move:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(rm:*)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(yt-dlp:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
