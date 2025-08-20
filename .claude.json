@@ -1,0 +1,57 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "command": "py",
+      "args": ["-m", "workspace_mcp"],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "",
+        "OAUTHLIB_INSECURE_TRANSPORT": "1",
+        "USER_GOOGLE_EMAIL": "",
+        "GOOGLE_PSE_API_KEY": "",
+        "GOOGLE_PSE_ENGINE_ID": "",
+        "MCP_ENABLE_OAUTH21": "true"
+      }
+    },
+    "youtube-processor": {
+      "command": "node",
+      "args": ["C:\\Users\\79818\\Desktop\\MCP Global\\mcp-servers\\youtube-processor\\src\\index.js"],
+      "env": {
+        "OUTPUT_DIR": "./AGENTS/youtube-processor/generated"
+      }
+    },
+    "whatsapp": {
+      "command": "python",
+      "args": ["C:\\Users\\79818\\Desktop\\MCP Global\\mcp-servers\\whatsapp-mcp\\whatsapp-mcp-server\\main.py"],
+      "env": {
+        "WHATSAPP_BRIDGE_PATH": "C:\\Users\\79818\\Desktop\\MCP Global\\mcp-servers\\whatsapp-mcp\\whatsapp-bridge"
+      }
+    },
+    "telegram": {
+      "command": "python",
+      "args": ["C:\\Users\\79818\\Desktop\\MCP Global\\mcp-servers\\telegram-mcp\\main.py"],
+      "env": {
+        "TELEGRAM_SESSION_STRING": "",
+        "TELEGRAM_API_ID": "",
+        "TELEGRAM_API_HASH": ""
+      }
+    },
+    "playwright": {
+      "command": "node",
+      "args": ["C:\\Users\\79818\\Desktop\\MCP Global\\mcp-servers\\playwright-mcp\\index.js"],
+      "env": {}
+    },
+    "n8n-mcp": {
+      "command": "npx",
+      "args": [
+        "n8n-mcp"
+      ],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "debug",
+        "N8N_API_URL": "https://leonidshvorob.app.n8n.cloud",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxNmU1MmE5Yy1lOTY1LTQ3NWQtOTNkZC1kMzU0NjBjYzcxYzEiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzU1MDgxMTc2fQ.waRuC8RuPNNYAqRj-GYMxcKRuGCvIFHtCkh_0oglTsY"
+      }
+    }
+  }
+}

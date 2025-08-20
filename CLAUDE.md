@@ -3,33 +3,44 @@
 ## Project Context
 Marketing automation project for Bill Murphy's Colony Spark agency.
 
+**Single Objective:** Increase Bill's marketing efficiency by 5-10x using Claude Code agents and subagents.
+
+## Core Workflow
+Build and deploy agents that transform Bill's manual marketing tasks into automated workflows. Focus on content repurposing as primary use case.
+
 ## Key Commands
 - `git status` - Check repository status
-- `git add .` - Stage all changes
-- `git commit -m "message"` - Commit changes with Claude Code attribution
-- `update project status` - Add new session log to PROJECT-REPORT.md
-- `update README weekly` - Update README based on week's progress from PROJECT-REPORT.md
-- `generate slack update` - Create casual Slack message from latest session for Bill
+- `git add .` - Stage all changes  
+- `git commit -m "message"` - Commit with Claude Code attribution
+- `update project status` - Add session log to README.md
 
 ## File Structure Conventions
 - Use kebab-case for file names
-- Organize by functional areas (prompts, templates, examples, tools)
-- Keep related materials together in subdirectories
-- Place documentation at appropriate hierarchy levels
+- Keep 2-level folder structure maximum
+- Organize by functional areas (agents, clients, knowledge, tools)
+- Place outputs in agents/outputs/ for temporary use
 
 ## Documentation Standards
-- Write all new documentation in English
-- Use consistent markdown formatting with emojis for section headers
-- Include practical examples where applicable
+- Write all documentation in English
+- Use consistent markdown formatting
+- Include practical examples
 - Keep content concise and actionable
+- Focus on what Bill needs to know
 
 ## Development Workflow
+- **Always prefer editing existing files** over creating new ones
+- **Create new files only when essential** (new major component, new client)
 - Always read existing files before making changes
 - Use MultiEdit for multiple changes to same file
-- Prefer editing existing files over creating new ones
 - Follow existing patterns and conventions in codebase
 - When plan is approved, execute all steps without asking permission
-- Use `claude --dangerously-skip-permissions` for automated operations
+
+## Agent Philosophy
+- **Build what Bill needs** - solve specific marketing automation problems
+- **Start with content repurposing** - highest impact area
+- **Keep agents simple** - one clear function per agent
+- **Test with real content** - use actual client work (Nuage)
+- **Measure efficiency gains** - track time savings
 
 ## Efficiency Guidelines
 - Use MultiEdit instead of multiple Edit calls
@@ -49,17 +60,31 @@ Marketing automation project for Bill Murphy's Colony Spark agency.
 - Check git status before and after commits
 
 ## Session Logging Rules
-- **Multiple sessions per day:** Separate entries for different focuses/contexts
-- **Single session per day:** Combine if <30min and same topic
-- **Session naming:** Use "Aug 17.1", "Aug 17.2" for multiple or "Aug 17" for single
+- **Multiple sessions per day:** Separate entries for different focuses
+- **Single session per day:** Combine if <30min and same topic  
+- **Session naming:** Use "Aug 20.1", "Aug 20.2" for multiple or "Aug 20" for single
 - **When to separate:** Different tasks, >1hr break, context change
 - **When to combine:** Related work, quick fixes, same workflow
-- **Update PROJECT-REPORT.md:** Add new session immediately after completion
+- **Update README.md:** Add session summary after completion
+
+## Project Success Metrics
+- **Primary Goal:** 5-10x efficiency improvement for Bill
+- **Measure:** Time reduction on marketing tasks
+- **Evidence:** Before/after comparisons on real work
+- **Focus:** Content repurposing workflow first
+
+## Client Context
+- **Primary Client:** Nuage (NetSuite consultants)  
+- **Content:** Technical/business focused
+- **Channels:** LinkedIn, email, blog, PDF guides
+- **Pain Points:** Manual content creation takes too long
+
+## MCP Integration
+- Use MCP servers when available (youtube-processor, google-workspace)
+- Fallback to local tools when needed (tools/_deprecated)
+- Configure via .claude.json for project-specific needs
 
 ## Automation Features
-- Changelog automatically updates on every push to main
-- GitHub Actions validate structure and deploy docs
 - Manual changelog update: `npm run changelog`
-- Force changelog with version: `npm run changelog:version "1.1.0"`
-- Always use descriptive, valuable names
+- Always use descriptive, valuable commit messages
 - ALWAYS write in English - no Russian text in any files

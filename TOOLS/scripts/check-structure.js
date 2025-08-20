@@ -5,21 +5,21 @@ const path = require('path');
 
 console.log('🔍 Checking project structure...');
 
-// Required directories
+// Required directories  
 const requiredDirs = [
-  'Valuable_Assets/Prompts',
-  'Valuable_Assets/Templates', 
-  'Valuable_Assets/Examples',
-  'Valuable_Assets/Tools_Setup',
-  'PROJECT-MANAGEMENT',
-  'CLAUDE-AGENTS'
+  'AGENTS',                    // ✅ Updated: was CLAUDE-AGENTS
+  'CLIENTS',                   // ✅ Client data and configs
+  'KNOWLEDGE',                 // ✅ Business frameworks
+  'TOOLS',                     // ✅ Project utilities
+  'TRAINING'                   // ✅ Learning materials
 ];
 
 // Required files
 const requiredFiles = [
-  'CLAUDE.md',
-  'Valuable_Assets/README.md',
-  'PROJECT-MANAGEMENT/progress-overview.md'
+  'CLAUDE.md',                 // ✅ Project instructions for Claude
+  '.claude.json',              // ✅ MCP configuration  
+  'AGENTS/README.md',          // ✅ Agent documentation
+  'README.md'                  // ✅ Project overview
 ];
 
 let errors = 0;
