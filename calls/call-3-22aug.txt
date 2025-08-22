@@ -1,0 +1,385 @@
+Impromptu Google Meet Meeting - August 22
+VIEW RECORDING - 56 mins (No highlights): https://fathom.video/share/7xWKFbksNAL4AqD_7bvvpjPiMu2oWjtq
+
+---
+
+0:01 - Bill Murphy
+  Yeah, I had a little training and I just had to run home and take a shower and everything. it was good.  was good.
+
+0:14 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, also, you know, just like before the call created a clay agent and it's working pretty well. So a little update.  Sweet.
+
+0:28 - Bill Murphy
+  I don't know. What do you mean by that?
+
+0:31 - Leonid Shvorob (standartdevelop@gmail.com)
+  So one of your ideas, as I remember, was like agent who tracking signals from like Reddit and suggests their comments, something like this.  I already have that.
+
+0:43 - Bill Murphy
+  I don't we don't need that done. We have all those things done. I need it. We needed to connect to those things.  OK, cool.
+
+0:51 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, yeah, let me know, please. What's your idea now? Because, yeah, it was I overcomplicated some things. Now I figure out how.  Build the agents very fast. So what's like your plan now? Build more agents or?
+
+1:07 - Bill Murphy
+  Well, I don't think that we've even, like, I don't, I haven't, I haven't ever seen like everything in, in cursor and like all the kind of like all the sub, the sub agent running for the repurposing.  I just feel like we're kind of just doing all this stuff and like, I haven't even, we haven't even like done anything or like used any of it.
+
+1:25 - Leonid Shvorob (standartdevelop@gmail.com)
+  Hmm. Okay. I can show you like screen share, uh, and show you in cursor. Okay. Yeah.
+
+1:34 - Bill Murphy
+  Yeah. Like, so like the goal, I think the goal is like, so we talked about these cloud sub agents, the MCP and using cursor and like connecting all the tools there.  And like, I just want to go through how that's done. Um, because I shared that video yesterday, like the same guy, Eric, he just like started making all these agents on video and he released yesterday.  And it's like, everything seems like he's doing it pretty quick. I'm sure he's not doing it as thorough. But, you know, it feels like we took like a week to do like what he did in like three minutes.  So I just want to get a sense of what we need to do and like how we can, like you said, do it faster now.  Yeah, sure, sure.
+
+2:12 - Leonid Shvorob (standartdevelop@gmail.com)
+  That's true. Because I'm like, make some pros that I like digging how to do it, how to structure it, testing different stuff and in different like this environment, it have some lagging.  So now I finally, when I create first, now I create like second agents, like it takes me like 10 minutes to properly do it.  And I think like third will take like five minutes. So if basically the agents doesn't need their MCPs that we need like download or something, it can be do very fast.  If it needs some, we need to just download these MCPs and then we can make it also very fast.
+
+2:52 - Bill Murphy
+  Yeah, so I'm thinking like once we have, I have cursor set up, like I can connect Claude to like aptify our.  Or the SEO agent, or all these other agents, or all the other MCPs that we can like, that we need, and like, it seems pretty quick.  So, Ahrefs, or all that stuff.
+
+3:12 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, sure. I think now we need to make setup in your computer, and so you can use all this agent, and you can create agents by yourself also.  Yeah, yeah, for sure.
+
+3:25 - Bill Murphy
+  I guess, I guess, could we just go through Claude, or Cursor, and walk me through it. So, I never, you know, I've never done it before.  Just, just watch those videos. Okay, let's go.
+
+3:36 - Leonid Shvorob (standartdevelop@gmail.com)
+  So basically, Cursor is same as like VS Code, so it's pretty similar, but it's more simple, and I find it more convenient.  So, okay. Sweet. Yeah, so you see now, yeah, Cursor.
+
+3:54 - Bill Murphy
+  Mm-hmm.
+
+3:55 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, okay, I want to close. I Thank you. Click and we have like starting screen and first what you want to do is open the project.  You can have it on your own computer or you want just create. So projects is basically a folder where we have files.  So in my computer is named Bill Colony Spark, for example. So I just choose it and I open. And then we have in here all files of the project.  So let's run. So first is plot. This is a technical folder. In here have all agents, all like sub-agents and all comments.  Because if you want to make like agents, not just a file, but. You want to make it like in video, choose slash, so you should input in this folder, because when I put it in different folders, it's just file, so you can, like, ask Claude to use in this prompt, but it's not a real agent.  Okay, so.
+
+5:19 - Bill Murphy
+  So, can we go to the repurposing one?
+
+5:24 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay, so first, I'm starting the Claude. Claude, Claude from here, and yes, need to wait, so, okay, now it's started, and we go to agent content generator is his name, so this is their prompt, actual, and in here, I add activity log, so when we finish session, we can add some.  So, So, yeah.
+
+6:00 - Bill Murphy
+  Like errors or something, so we can evolve this agent because, yeah, so like yesterday, so I, I, I'm just tight when I was employed, I put in a transcript, and I had to do like, find all the golden information, give me all like the top, you know, the most valuable information, all that stuff.  Um, and then like, and then it tells me all the ideas it has, you know, there was no text post for this one.  was like three emails, uh, uh, you know, the YouTube SEO, all that. And like, and then I can like, and then I tell it like, this is more important.  This is more important. Like if I keep it in that same chat, it kind of continues that context. Is that, is that like something that would happen here?  Okay. Cause that's what I was reading when I was mentioning the other day, like you said, like, it would just forget.  So like every time I would have to give like the same like direction or yeah, you wouldn't, it wouldn't keep.
+
+7:01 - Leonid Shvorob (standartdevelop@gmail.com)
+  So look, yeah, as you say, you won't have control over which content you want to repurpose.
+
+7:10 - Bill Murphy
+  I also want it to be like if I'm like, hey, we never want to talk about we never want to do this or hey, this is this is important for the next three weeks.  Like, you know, I want to make say that tariffs are important. Like, I want to make sure we're talking tariffs, you know, or whatever I could say.  Like, I wanted to remember that context for the next everything in Nuage for everything in our client. Like, I wanted to remember what we want to talk about or like some like little nuances or things like that.  Yeah, yeah.
+
+7:43 - Leonid Shvorob (standartdevelop@gmail.com)
+  So in here we have folder with clients like Nuage. Yeah. And in here there is a context like brand context, tone of voice, and you can add some other information.  And when we started this agent. can't Any Any And We say, okay, now you're working with client Nuash, and he upload all context from here to his memory.  So if you have like three clients or five clients, you don't need to change the agent. You just change clients folder, and then agents can just do it for every client.
+
+8:20 - Bill Murphy
+  But what are the, like what I was sending you the other day, like it says the subagents can be refined and they maintain their own context and memory.  And that's one of the features of the Claude Code subagent system. You can, and they'll retain like the information throughout their interactions.  So like, if, I guess, if I can, if I have like a subagent, the tone of, or if I have the subagent repurposing Nuash, could I just continue in the same chat here?  Actually, it's hard for me to see this. Could you like, are you able to share just the window of the cursor?  Yeah, yeah, yeah, sure. So in here, so if you're in Claude, if we have an agent, the agent's called like Nuage Content Repurposed Agent.  And so like we're in the agent. You can just, you're in Microsoft or in Google Meet, if you click present, you can just share your window instead of the whole, instead of the whole screen, it might be easier.  So you're not, you know, you can just do whatever you need to do. Okay, wait a second.
+
+9:51 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, okay. I think this just, I open. I open for sure.
+
+9:59 - Bill Murphy
+  You're sharing. You're sharing your whole screen. There's an option just to share, like, a window.
+
+10:05 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, but you didn't see the right window, I guess. So now you see the cursor, yeah?
+
+10:11 - Bill Murphy
+  Yeah. So if, say, you have your agents over there in the left corner, or in the left nav here.  If we have an agent that's just, like, Nuage content repurposing, and I continue talking to it, so it just stays in that.  Yeah, yeah.
+
+10:31 - Leonid Shvorob (standartdevelop@gmail.com)
+  Sure, it's possible. And also, we can, in the same window, when third agent finishes its job, we can say, okay, now use another agent.  And it will remember the old context from this session.
+
+10:46 - Bill Murphy
+  Could we, could I just keep it, I just want to use all the repurposing in one agent, and then, or in one whatever, like, the sub-agent, that terminal, and, like, keep it going.  So, like, this week we have the repurpose, and I could say, like, here, take this YouTube. get And then I can talk to it and kind of say like, all right, these are the three things we want.  And then it can start learning like, oh, like, and then I can say, all right, for the, if it's just like a PDF carousel, I can say like, oh, we want to use, you know, we want to use this.  And then like the next time in that same terminal, I can say like, all right, here's the new video.  And it would remember like, hey, we, they want to use like PDFs that look like this. I shouldn't suggest PDFs that look like the other thing.
+
+11:30 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, yeah, sure. We can do it. If you want just custom agent that working only with one client, we can add all the brand information and tone of voice in this agent.  So something like this.
+
+11:42 - Bill Murphy
+  Yeah, I would love I think if it's like, we could take like, we can have our template and whatever, like the right word would be like, we have all of our agents and then like, like, they're kind of like, people that work for the company.  So it could be like, hey, we have the content repurposing, we're going to duplicate that, add it in. to the client for Nuage and then like give it all its specific instructions and then just have that agent continue talking to it.  So it's like, it's still that one agent, we're not saying like, okay, now open up for the next client and do the same, your same job.  So it's kind of like, does that, am I like making sense? I I don't know. Yeah, yeah, yeah.
+
+12:22 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, okay. Let me tell you what I think. So we have agent, yeah, and the agent has instructions. So if you want this agent working for different clients, yeah, so he has many instructions, do this, use these tools, put information in this format.  And if you want to customize everything, you just say use all information from Nuage and when you have some edits, like you want this, it will be PDF formatting like this or this LinkedIn post like this.  You just put this information into clients, like ton of. Bye. And when you run your agent again, it's just use this file again and see all the updates and give you the better results.
+
+13:10 - Bill Murphy
+  Could we basically have it structured so it's like you're building out these agents and then we have our client folder and the client folder has the brand pack, the tone of voice, and maybe some of them have some other things.  And then we duplicate the agent inside the client folder. So like the Nuage client folder has like more Nuage specific prompts.  So for example, like some clients may be like maybe on like Instagram and like some may be on or may just want text posts.  And like so like I could take the content regenerator and like duplicate it, put it into Nuage and then modify the actual the actual the prompt.  So it's more more specified to the actual client. So like. You basically create like one agent template and like I modified for each client and then we can put it in this in the folder so it's kind of like their clients and I'm thinking like as like you know working with them it's like oh we want to do SEO now like all right I already have the agent I can just duplicate that make some more make some specific adjustments for the client maybe they want to focus on different things on their website and I already have it built it's already 90% of the way it builds.
+
+14:29 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah yeah I got you but okay look we don't need to duplicate agent for each client we have like one agent you can think about him like your employer yeah your employee and then you just say okay take this information about these clients and give me the good result so something like this he's just taking information about clients that you can add anything you want about your needs and then he will just give you the result.  So we don't need like five So We have one, but he can take information about this client, about that client, and you will have different outputs.
+
+15:09 - Bill Murphy
+  I totally get that. The one thing I was just thinking like, but if I keep just one agent per client, then I have like a whole, the whole history with that one client.  So the whole terminal, that whole window would just be filled with everything with Nuage. And they'd remember all the context, all my like other instructions or other like, you know, a little feedback I'm giving instead of saying like, all right, do this for this client.  Now, here's my feedback. And then now I need to do it again for another client. So like, basically everything's just wiped away.  And then I had to do it all over again for, you know, everyone else. Mm hmm. Because, and also the, like I was saying, like the generator, maybe like, hey, we would need to just focus on LinkedIn and YouTube and our email, but like one client.  I may be like, I just want to focus on Instagram and Facebook and, and like YouTube. And so then it's kind of like the agent wouldn't be like specified for them.  Yeah. Yeah.
+
+16:12 - Leonid Shvorob (standartdevelop@gmail.com)
+  No agent will remember all adjustments that you will do. So something like this, because look, if you want to make each agent for each client, for example, you have 10 clients and you have 10 agents.  And if you want each agent for a specific client, it wouldn't be 100 agents. So it's very inconvenient.
+
+16:34 - Bill Murphy
+  I would think it'd be like a lot easier because then I can say like, I would just have instead of, I would just go into clients, Nuage, agents, and then I would have like my whole like list of things we do for them.  And then like, and then I can kind of, if say I, were working with like another, someone else in the company, I can just say like, Hey, I only need you to focus on Nuage.  I already had the prompts built out for Nuage and like. And they don't need to like jump into like all this other stuff that can feels like, you know, this definitely, you know, feels a little like a lot of information for someone who's pretty new.  Yeah, yeah.
+
+17:13 - Leonid Shvorob (standartdevelop@gmail.com)
+  So we just need to do as simple as possible and set the good instructions. And also, I will add to agents that he automatically use the right information.  So, like your team, we need just, okay, hey, use this agent for this client. And that's all. So it's doesn't need to do a lot of technical stuff and just say, okay, use this agent, use this client, here's what I want to say.  That's, that's all.
+
+17:42 - Bill Murphy
+  But that doesn't, that's not building the prompt to say, like, for example, like, for Nuage, they're going to want to sound and talk to different, like, they can have like different people you can speak in the voice of.  So like, for example, I was looking at that video yesterday. was And part of the prompt was like, hey, I want you to analyze this video and then think about popular people in my industry, like this, this, and this, think about their popular videos and kind of think about what are those viral moments that are inside my video.  So like, if that's in the prompt, then then that means like, the prompt, the thought leaders in the industry are going to change for every single client, and the people they need to look at are going to change, and the outputs are going to change.  So you want more you are LinkedIn and YouTube, but another client may just want all emails. So I would say like the output is going to have to be totally different.  So it would really, it would really kind of make the, the, the agent not know what to do, because in my opinion, because I would be like, hey, actually, we don't even need YouTube SEO for this client.  Why you keep sending this to me? And like, why is really outputs that are in the voice? Like someone else or, you know, it just feels like if every client had their own employee, it's kind of like that, you know, the whole agent would just keep learning from the, our feedback from that one client.  Like I would do in a chat with, with Claude, I've just kind of used the same repurposing chat for new lodge.  And I'm just like, yeah, this, you know, you can remember what you did here. Like this was, this was like, this worked really well.  And we can kind of, I can even come back with feedback and say like, Hey, they, these three posts did really well.  Like, let's do more like that. And I, I don't want to have to remember that every week. Cause that's, that's basically like why we want to have the agent, I think.  Yeah. Yeah. So sure.
+
+19:42 - Leonid Shvorob (standartdevelop@gmail.com)
+  We just, after each session, when you finish all, you can say, okay, save this information in the client folder and it will all save.  And next time it will use, but if you want to make a specific agent, but we can do this.  But I think in about like this, so first agent, it's like, um, making score. and generating ideas. It's his function.  Like second agent making content from opportunities. Like LinkedIn posts in here, in here. You can have CEO agent. You can have, I don't know, like other agents.  So each function is each agent. So, and each agent can use just all information about client, where is all that you want to provide.
+
+20:31 - Bill Murphy
+  So, I don't even think like, even with this clay stuff, like the signals are going to be completely different for Nuash.  They're looking at, at looking for SCFOs in another company we look at, they're looking for CTOs. If it's in, you know, they're, they're searching different Reddit.  Subreddit. So like, every time I need to put like, the prompt should say like, search these subreddits or search this, search this clay table.  Like, it should be, like, really specific to the client, not just to the function because we're going to have, like, it's going to get so complicated, like, and, like, every, if someone, like, an employee is, like, working, like, they're going to have to remember to go look at, like, they're going to have to go back and read other things, other documentation when I'm hoping, like, we build out these agents and it's, like, someone could come into Nuage and just be, like, hey, I already have all the context because Bill's been working on this for three months.  And it's, like, now all I can do is, all I need to do is just, like, add this, do these three steps, and, like, I can be assured, like, the output's going to be, like, 90% of the way there, whereas if it's, the agent's just restarting every week with every client, like, it's never going to learn what the different, what a client likes, because Sword Sweeper, our client's Sword Sweeper, they're going to be, like, super technical, and they're going to, like, have, like, tons of different things they want to do, like, inside the post, but Nuage is, like, yeah, do whatever you want.  So it's just, like, I feel I it's going to create even more work at the end of the day because everyone's going to need to keep kind of doing the feedback loop and I will never be able to get out of this execution.
+
+22:13 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so we can do this. It's easy. So we can save all this and an agent will evolve in every time.  So if you need for each client, each specific agent, we can do this if you feel that it's more convenient for you.
+
+22:30 - Bill Murphy
+  So I would love if I'm thinking like if we have like the master agent and then like inside the prompt, maybe there's like an area that needs to be personalized or like places I can just personalize every place.  So so, for example, look, you know, this that if if we're in the content generator, it's just like, hey, we need to do, you know, find the golden nuggets and find the best content ideas for these three channels.  Like I would just I would change that for every client. But like you can build it, I guess we can build it like 80% of the way there and I can just take the other 20% and make it very specialized.  Yeah, yeah.
+
+23:11 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, okay. Let me explain this. Maybe I should like write something in Whimsical. So, yeah, it can be looks a little bit complicated in the first, but I think it's not so complicated.  So, okay. We have an agent. Yeah. And we say to him, you should use these tools and you should do this, you shouldn't do that.  Yeah. But you have different clients, for example, Nuage, then client number two, etc. And when you say this client, this agent, okay, now you're working on Nuage and create all the...  He gives you some results, and you say, okay, I like this, I like this, I like this. Can you please update the information?  And he will update information about Nuash. So when he will work in again, like next week, he will just take all this updated information, generate some output, and you say, okay, now I want more of this, more of this, more of this, and please update.  And he will update it again. But if you say to him, okay, now work with client number two, he will not use this information because he will use information of this client.  So every time you finish the session with agent, you just say, okay, this is my updates, and you just save all these updates into like client's folder, something.
+
+24:56 - Bill Murphy
+  Okay, so we could actually have like a, like an M. Whatever, the MD folder or something that says like outputs or something like that, and it can be like, hey, we want, for Nuage, like the outputs are just like YouTube, LinkedIn, newsletter.  Yeah, sure, we can tell that every client can have all that. So like they can refer back to that and then I can write, I can say update this because update this because Nuage wants to start doing Instagram posts.  So like, then they have like a little, it's like the output needs to include Instagram posts from now on.  Mm hmm. Yes, we can do this.
+
+25:34 - Leonid Shvorob (standartdevelop@gmail.com)
+  So I have a question for you, what do you think will be more convenient? So there is like two approach.  We have agents and we have all outputs of this agent in his folder, like about Nuage, about other clients, or we can structure by the client.  So every client has a folder outputs and this folder will be outputs from agent number one, agent number
+
+26:05 - Bill Murphy
+  I'd rather have everything with the client together because then if I can refer back to it or if I need to kind of maybe we need to take all the outputs and I don't know run it in another LLM or something.  I would just try to have it all in one client. They may even like to see it someday and I can just kind of, I don't have to kind of run through every client and make them feel like, you know, get them and see everything else we're doing.
+
+26:29 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, sure. We can save based on clients. So you have content repurposing, opportunity agent, and whatever you want. And all this will be in here.  But it's not the most convenient way. It's like better you maybe store this information. Like you see it, you use it, you publish.  But if you want, you can go back and see all the outputs. Something like this.
+
+26:55 - Bill Murphy
+  Yeah, I want, I want to see the outputs and I wanted to just continue learning from what we said the last time.  Yeah, yeah. I want to be able to reference that.
+
+27:04 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, and also about agent. Agents have a log. So, for example, it's running and you see it makes some errors.  Yeah. So you don't like how it works in general. So it makes like M and Z or I don't know, just using the wrong tools in the wrong way to make this job done.  Yeah. And he saved all these errors in like file. And then in the end of the session, you can say, OK, now you can you should check all these errors and make and evolve, like make you better.  So you don't do any errors.
+
+27:43 - Bill Murphy
+  So there's also one one one error, one client error, maybe another client's like great post. Mm hmm.
+
+27:52 - Leonid Shvorob (standartdevelop@gmail.com)
+  We may.
+
+27:54 - Bill Murphy
+  They may look at the when we're referencing different people to kind of emulate. Aемe Ese trade Yeah. But, you know, sometimes you want to say like, think of it in the style of like Chris Voss, like think about how he would say something like, we don't want to say that Chris Voss for another client, but we want to, but so like the output would be like, great for Nuage, but like terrible for Swordsweeper.  Yeah, yeah, yeah.
+
+28:19 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, I mean, technical issues, not their, not their like tone of voice.
+
+28:25 - Bill Murphy
+  Okay. Yeah.
+
+28:28 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, um, have you any question and do you want to implement it in your computer this week or like, what's our next step?  Yeah.
+
+28:38 - Bill Murphy
+  Well, first let me send you a video to, and we, let's do that. If we can do it live, like let's do the repurposing live.  Okay.
+
+28:47 - Leonid Shvorob (standartdevelop@gmail.com)
+  So you can send me the video.
+
+28:49 - Bill Murphy
+  Yep. Or do you have time? I don't, I don't. Yeah, sure.
+
+28:55 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay. Okay, so to call the agent, we use first content strategists who like scoring, yeah? Use content strategist agent for this video.  Don't forget at all tone of voice and other context about the client.
+
+29:56 - Bill Murphy
+  And we call this in the tone of voice MD file. Okay? You
+
+30:00 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, it's in here. So this agent now will need to take all this information. So now this agent starts running.  When you see the blue, like, or color, it means it's making by agent. Because what I found, it's create its own session.  So you don't see what's inside. You just see output. And if you do the same, just, okay, use this prompt.  So it will be more annoying. So you will need a proof every second. So, like, do you allow to read this file and that file?  So, yeah, like the content strategist is ready to analyze Fonuaji. So, sometimes it can work not sustainable, but... We can improve it after each session.  Okay and you can use in here like different like terminals. So for example in here you can also call the cloud and you can use other agents.  So if you have like five tasks that you work in in the same time you can use different agents and just calling in here calling here so something like this.
+
+31:45 - Bill Murphy
+  But I don't I don't get it why there's all these tabs the tabs up there aren't changing like what shouldn't each tab be a different agent I don't know uh what you meant so there's tabs up top like nuage test results  Toneofvoice.md, like what are they doing there?
+
+32:06 - Leonid Shvorob (standartdevelop@gmail.com)
+  Wait, I don't get you. You've got the video thing in front of the cursor.
+
+32:14 - Bill Murphy
+  There's a tab up top that says tone of voice.
+
+32:17 - Leonid Shvorob (standartdevelop@gmail.com)
+  Ah, yeah, yeah, it's just the files, so it's not related in here.
+
+32:26 - Bill Murphy
+  I don't get like, why wouldn't I have different terminals up top that are doing all these different things?
+
+32:33 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, yeah, I see in the video, he has it in here, but in the basic, it's in here, so it's just right.  I think we can, like in settings that it was in here and this was in here, so it's up to you.  When you have your cursor and you're working, you can just adjust how it's more convenient for you. If you want it in here, in the up, you can do this.  If you want it like left or right, it also can. But in here, the structure is like this. In here, we have terminal.  And in here, we have tabs. In here, we have files. So we can just open each file, and we can see it.
+
+33:19 - Bill Murphy
+  So this is like, like, I don't, I just can't, I'm just having a hard time, like, figuring out there's a terminal on the bottom, but there's something completely different on the top.  Like, I don't know, like, what I'm saying. What to be looking at? Where's the output going?
+
+33:34 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so we're waiting. It's still doing it. And now, as you see, he's asking a lot of permissions. So it's something that you, I want to add commands.  When you start the session, you can say, okay, I will give you all permissions, and don't ask me again about it.  Something like this.
+
+33:55 - Bill Murphy
+  Okay. So, yeah.
+
+33:58 - Leonid Shvorob (standartdevelop@gmail.com)
+  So, have you already tried, like, using In Clouds, like in desktop application, or in like Cursor? No, I'm never using Cursor.  Okay, so while it's processing, you see, in here, in Clouds, desktop, it also can be a good place because in here you have other things.  So, for example, if you don't need to do things in parallel, sometimes it's more easy to do it through this application because basically it's doing the same.  So it's have the same functions as like Cursor. And in here we have connectors, so you can connect your Google Drive, you can connect Airtable, you can connect it to your file system and other instruments.  So from there, like, box, you can add like CRM. Like Notion, so all instrumentals that you want and can just use it from this application, if it's convenient for you.
+
+35:13 - Bill Murphy
+  Could we connect an SCO data, I forgot the name, data for SCO I think it's called? Like the data for SCO MCP, is that where we would connect all this stuff?
+
+35:31 - Leonid Shvorob (standartdevelop@gmail.com)
+  Wait, wait, I don't get what you mean data for SCO?
+
+35:34 - Bill Murphy
+  That's the name of an MCP or an API that you can recall to get to do the SCO. Okay.  So let's really connect that.
+
+35:46 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, let's first, if you want, we can see the output of their content opportunities, Noash. So this is agent finish his work.  And in here, like first opportunity, LinkedIn. Carousel, PDF, blog posts, graphic, LinkedIn again, as you say, you need as much content as it's possible for a good community.  So in here, in this video, we have 12. It's pretty good.
+
+36:22 - Bill Murphy
+  And then... high scores goes to 1 to 100?
+
+36:26 - Leonid Shvorob (standartdevelop@gmail.com)
+  I think this score is maximal like... to 30, right?
+
+36:32 - Bill Murphy
+  30. Yeah.
+
+36:34 - Leonid Shvorob (standartdevelop@gmail.com)
+  So in here, if we want, we can ask another agent. So it created all finished content from this file.  You can do it now or later.
+
+36:47 - Bill Murphy
+  Because I wanted to say like, hey, that number one, I like that one, but could we make it more about more focused on like...  I don't know. Okay. Actually, this, can you keep scrolling down there? I want to see what the output is because this, the cost of, so this video was about tariffs and like this is not even mentioning tariffs at all and so about maximizing your NetSuite investment.  Like it's not, it's not even talking about the right topic that was in the video.
+
+37:36 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay, so why you don't mention topic that's in the video? Can you please tell me what errors was and why it's like this?  Yeah, so it can be because he cannot extract like transcript from the YouTube. But let's see. The real issue, the video was completely unassessable due to technical, like here what happened.
+
+38:11 - Bill Murphy
+  So I just created like some big stuff.
+
+38:14 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so I think he just reads the description, etc. But okay, let's fix it. So what you need to fix it, can you like choose different tools and can you do like you can what I say?  So now give me the plan how to fix it and fix it later. Yeah, so it's important like every other session to evaluate the results and then like see what's wrong here.  Because I was testing on like three videos, in two videos is go okay, in one video is like have like transcript or something like this.  Yeah, so I'm going Yeah. So now, when it's going, you're talking about SEO or MCP, yeah?
+
+39:08 - Bill Murphy
+  Or with these things, like, we could just upload the transcript.
+
+39:13 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, we can just upload the transcript. But I wanted to do it automatically. But if we just do it with transcript, it will be super fast.  it will be like, yeah, okay, because the transcript might be just easy to get, like, might just be easier to do that.
+
+39:28 - Bill Murphy
+  Let's see what it fixes. For this SEO stuff, like, the way I was looking at it in Eric's video is kind of, like, you're basically, like, you can just set up an agent and just, like, give it a prompt, you know?  I want you to run, look through all of my Google Search Console, find any pages that are getting a thousand plus impressions.  And I want to be able to, you know, go look at, understand which keywords are my best opportunities, which ones have the highest CPC.  And then the next step would be like, which tools do you want to use? And it would ask you right in the agent.  And then it would ask you to pick a color. You can just pick the tools and everything. So I'm just, can you just set that up?  show me that? Yeah, sure.
+
+40:21 - Leonid Shvorob (standartdevelop@gmail.com)
+  Let's go. So in here, you go to agents and now create a new agent. If you create for project, it agent only will be in this project.  If you wanted global, like personal, it can be for every project. And then generate with Claude. So can you repeat again?  Which one?
+
+40:48 - Bill Murphy
+  all my review, my Google search console data, find any pages that are getting over 1000 impressions and like extract the keywords from there and use.  And then research which keywords have the best opportunities to rank on page one. And after that, the next step would be like, which MCPs do you want to connect?  Data for SEO, Google Search Console, Google Analytics, Ahrefs. And it would just kind of like do its thing. It would go use all those different tools.  That's how we did it in the video.
+
+41:27 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, it's good because now we're asking the clouds to create agents. So he will suggest what's the best way to do it.
+
+41:35 - Bill Murphy
+  Yeah. And then we basically, once we kind of give him the general idea, he can build a prompt around that and understand which tools that we already said we want to connect for this.  And Eric was saying like, you know, just connect, you can connect all the tools, but like sometimes the agent gets a little confused.  So like having like the right tools that you want to have, like the 10 tools that you just want them to kind of like interact with.  It's kind of like the eight. The decides like where to go and you can say like the data for SEO tool has given them this information, Ahrefs has given them, you know, some other information and then they can put together a whole plan for you.
+
+42:13 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, yeah, yeah. So if we connect like MCPs, so better if he needs only one or two MCPs, we don't add like 10 or more because it's also not so sustainable.  So sometimes it can do random stuff and we need to push it forward the right direction and the less tools he use, the less mistakes he can do and it's more easy for you to manage it.  So, okay, can you search my Google console and then check all the keywords about some stuff and then make an analytic and then find some opportunities or something?  I don't remember much, sorry. So, Jack, analyze what... They want to do and suggest me what tools and MCPs and other stuff I need to use it.
+
+43:10 - Bill Murphy
+  So here's here's like a whole agent that, this is different than what Eric did, but here's like a whole other kind of agent that was built to use like Firecrawl, Perplexity, Data for SEO.  And you can just kind of tell them, tell them to do all these different things and only one agent.  mean, you know that, but, so yeah, you can use all tools. Like we, we would install the tools so that this is where I would say like, which tools do you want to use, right?  Yeah, so all tools. We need to install those, I guess, the Google tools or all the other stuff that we need to have in here.  Yeah.
+
+43:54 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah. So, okay. I choose all tools and then choose model and. So basically when I created agents, first you can have a not very good result, but then you can say just, okay, I don't like this.  You should change this and you should use the better tools, something like this, because when it's create an agent, it will be in the agent folder.  And when it's in this folder, so ClaudeCode is as an agent, not just random MD file. And that's why you can just say, okay, take the agent's CEO and make him better and choose different tools.  So you can say whatever you want this agent to do. Got it.
+
+44:51 - Bill Murphy
+  Okay.
+
+44:52 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so now it's, I think it's thinking, not just no tools selected. Yeah, so basically, I think I push this button, but you got the main thing.  We can create agents from here and just like do it.
+
+45:21 - Bill Murphy
+  When I'm creating an agent, I'm saying like all the things I wanted to do. Could I also ask it to write me a more like a better prompt based on like my goals?  Yeah, yeah, sure.
+
+45:34 - Leonid Shvorob (standartdevelop@gmail.com)
+  You can also put all your goals in here, like into some MD file. And when you create a new agent, you can just give him all the context and then say, okay, now you can suggest me a better plan or something like this.  Okay. Yeah, and also like some like tip that I use when you're using like code code or something. You can say, like, make me an idea of agent and take all information from my Google console and make the SEO analysis and make it very good.  It's your first role and your second role is a reviewer who review all this prompt and he is very strict.  And don't allow the result be general. It should be ideal 10 of 10. And if it's not ideal, just make the cycle until it's getting ideal.  So you say something like this and then it's create a result, then it's review it and then it's making better.  So you have a better outcome because before I just wasting so much time when I see the best results.  And then I say, OK, I don't want this and this. So when you using like. Prompt like this, you will have like X2 or X3 better outcome in here.
+
+47:07 - Bill Murphy
+  Yeah, you got to let them do the right prompt that's going to help work for them. Yeah, yeah, sure.
+
+47:14 - Leonid Shvorob (standartdevelop@gmail.com)
+  So you can just create a prompt first and you can then just paste all this into their agent when you create.  So it's not the big deal. So you just need to create an agent and just edit this file and it will be how you want.  Something like that. Okay, sweet.
+
+47:34 - Bill Murphy
+  So how do I, so I just download cursor and then I'll just be able to, how do I can, I guess I'm also just not understanding why I need to have like that GitHub repository if I could just create agents inside of cursor and cloud code.  Yeah, yeah.
+
+47:54 - Leonid Shvorob (standartdevelop@gmail.com)
+  So look, as you see before, when we start, we need to open a folder. Yes. Yeah.-hmm.
+
+48:00 - Bill Murphy
+  So you can have a,
+
+48:01 - Leonid Shvorob (standartdevelop@gmail.com)
+  Folder on your computer, and you can edit this folder. And you don't need to GitHub. But why I use GitHub?  Because I can share information with you. If I'm just like, give you a big file in the Slack, I think it's not so convenient.  And if you're working with your team, it's just more convenient to share the files in the through the GitHub.  And also, if you're like working on some project, and you do something some changes in GitHub, GitHub, just remember it.  And if you then want to go back to another version, it's you don't need to like struggle about it.  can say, Okay, now take version of this, like from one week ago, look at my GitHub changes, and then give me this version.  So it's also for safety. Okay.
+
+48:54 - Bill Murphy
+  And the last question I had, like, I mean, I'm just gonna share my screen real quick. So I found like MCP for YouTube that take Yeah.  It takes the subtitles and connects it to Claude. like, could I just basically like, like, how would I install this, I guess the same way I would install the other stuff that you sent me?
+
+49:17 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, so there are different ways, but you can see the readme file in here. In here should be instruction, readme file.  Yeah, yeah, it's here. So install via MCP installer using, yeah. So you can just give the link of this repository to the Claude code and just say, install this for me, or you can do it manually, it's up to you.  Oh, okay. Yeah, so I think it's a more convenient way for you if I'm just first try this MCP on my computer and then give you instructions.  Right. so we're you And you can save time installing the SMCPs because sometimes it has some issues and et cetera.  Yeah.
+
+50:09 - Bill Murphy
+  Yeah. Okay. Fine. Yeah.
+
+50:12 - Leonid Shvorob (standartdevelop@gmail.com)
+  But yeah. First thing you need to do is to install the like cloud desktop.
+
+50:18 - Bill Murphy
+  Have you done this? Cloud desktop? No, I was going to install the cursor so I could, because I have the cloud API, remember?  I didn't. No, no, no.
+
+50:31 - Leonid Shvorob (standartdevelop@gmail.com)
+  It's different. So if you use API, it's very expensive and it's very bad. So you don't need to do this.  Okay. Okay.
+
+50:42 - Bill Murphy
+  All right. I'll set up cloud desktop and cursor probably this weekend, probably maybe today, but probably this weekend. And then I'll, um, if you can just tell me how to, how to upload this, those like agents and everything from the GitHub.  Um, if you want, like that would be really helpful. And then I, Play around with that. then maybe we can have like one or two calls next week to just kind of go over any questions and keep kind of, you know, figuring out what the next agents are because I think the signals is, I think I want to take the signals and intent data and like be able to kind of make like a, like an email that we can send out weekly to the client and that, see, that would be, that would need to be different for every client.  Like some clients would need to pull from different clay tables or different information and all the different pieces. Each client would have a, you know, different destinations to pull from, different emails to send to, all that.  Yeah, yeah.
+
+51:46 - Leonid Shvorob (standartdevelop@gmail.com)
+  So in here, I make some research and clay doesn't have MCP. So you can see in here. I make it's all MCPs that are public.  Yeah! And Clay, they don't have MCP, so I don't know. think it's more complex if we need to do something with Clay.  If you can do it manually or through just API integration, we can do it. But it doesn't have their own MCPs, so something like this.  If you have time on the weekend, you can just search in here and just choose all the services that you work with, like Google Console or some SEO.  And then you can just give me the links of all these MCPs and I will just see how we can implement it very fast.  And then I, like, make instructions for you how to do it.
+
+52:58 - Bill Murphy
+  Like, we can't just easily connect them.-bye. And Like, we just can't connect MCP in Cursor?
+
+53:08 - Leonid Shvorob (standartdevelop@gmail.com)
+  In Cloud, like in Cloud Code and VS Code, it can be easy, but sometimes it's more complicated. Sometimes you need to copy some file and then to find some file in your computer that is digging very far away.  And sometimes it's some problems with documentation. So it can be easy, it can be not, so it depends. Okay.
+
+53:40 - Bill Murphy
+  I just Googled real quick, and like, it says, like, they're showing me how to access Cloud Code. So Cloud's key, or you can access the clay data with your API key in the Cloud sub-agent.  So, like, I don't know, like, what, how come I'm, I find, like, completely different. shed, stop Information than you are.
+
+54:04 - Leonid Shvorob (standartdevelop@gmail.com)
+  I check in just today in here, and they don't have. And then I ask Claude Cote, can you make research about available clay MCPs?  And I get information, then there is not. Maybe you can share me the link, what you found, and maybe he give me the wrong information, and there is somewhere else this MCPs.  So yeah.
+
+54:30 - Bill Murphy
+  OK. Let's get the first thing done. These other agents seem super easy to just set up from that video I saw yesterday.  Yeah.
+
+54:39 - Leonid Shvorob (standartdevelop@gmail.com)
+  You can just give me a video and what agents you can describe me, and I will see, and I create this agent for you, and yeah.  Cool.
+
+54:50 - Bill Murphy
+  Cool. All right, yeah, send that off. I'll get the Claude and the cursor today, and then I'll let you know if have any questions after that.  Yeah, sure. sure. Sure.
+
+55:01 - Leonid Shvorob (standartdevelop@gmail.com)
+  Yeah, And in Clot, you should take the subscription, and if you want to use it very often, like you should have max subscription that I use now, it's like 100 bucks a month, because when I use just pro subscription, it's stopping every few hours.  So you can start with small, and then if you see that you need more, you can just change the plan or something like that.  Okay.
+
+55:30 - Bill Murphy
+  All right. Yeah, I'll take a look. I appreciate that.
+
+55:34 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay. So Skul, waiting for your video, or you sent me before, and what specific agency you want to build.  The more clearly you can describe me, they're faster. I will do it for you.
+
+55:51 - Bill Murphy
+  Yeah. I don't think we need to build this right now, but check out that Docsend link I sent you.  It's basically like... basically runs through the whole configuration for... ... A, uh, a, uh, SEO.
+
+56:06 - Leonid Shvorob (standartdevelop@gmail.com)
+  Okay.
+
+56:07 - Bill Murphy
+  I will check, I will check it. Yeah. Uh, all I'll talk to you next week. I appreciate the help, man.  Okay.
+
+56:14 - Leonid Shvorob (standartdevelop@gmail.com)
+  Have a good weekend.
+
+56:15 - Bill Murphy
+  Take care.

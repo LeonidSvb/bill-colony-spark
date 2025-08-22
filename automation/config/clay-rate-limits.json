@@ -1,0 +1,25 @@
+{
+  "description": "Clay API rate limiting configuration",
+  "updated": "2025-08-22",
+  "limits": {
+    "requests_per_minute": 30,
+    "requests_per_second": 5,
+    "burst_capacity": 20,
+    "retry_delay_seconds": 2,
+    "max_retries": 3
+  },
+  "webhooks": {
+    "records_per_second": 10,
+    "burst_capacity": 20
+  },
+  "safety": {
+    "minimum_delay_ms": 1000,
+    "batch_size": 10,
+    "cool_down_period_seconds": 30
+  },
+  "monitoring": {
+    "track_request_times": true,
+    "log_rate_limit_hits": true,
+    "alert_threshold_percent": 80
+  }
+}

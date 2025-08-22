@@ -1,0 +1,35 @@
+{
+  "description": "Notification settings for Clay automation",
+  "updated": "2025-08-22",
+  "email": {
+    "enabled": false,
+    "smtp_server": "",
+    "smtp_port": 587,
+    "username": "",
+    "password": "",
+    "from_address": "",
+    "to_addresses": [""],
+    "subject_prefix": "[Clay Automation]"
+  },
+  "telegram": {
+    "enabled": false,
+    "bot_token": "",
+    "chat_id": "",
+    "notifications": {
+      "success": true,
+      "errors": true,
+      "warnings": false
+    }
+  },
+  "file": {
+    "enabled": true,
+    "error_file": "C:\\Users\\79818\\Desktop\\Bill - Colony Spark\\automation\\logs\\errors.log",
+    "success_file": "C:\\Users\\79818\\Desktop\\Bill - Colony Spark\\automation\\logs\\automation.log"
+  },
+  "desktop": {
+    "enabled": true,
+    "show_success_popup": false,
+    "show_error_popup": true,
+    "create_error_reports": true
+  }
+}

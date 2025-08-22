@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-08-22T00:00:00Z",
+  "analyzed_signals": [],
+  "schema": {
+    "signal_id": "unique identifier for each signal",
+    "url": "Reddit thread URL",
+    "title": "Thread title",
+    "subreddit": "Subreddit name",
+    "analyzed_date": "ISO timestamp when analyzed",
+    "client": "Client name (e.g., 'nuage')",
+    "relevance_score": "1-10 relevance rating",
+    "status": "pending|engaged|archived",
+    "engagement_outcome": "success|neutral|negative|null"
+  },
+  "stats": {
+    "total_signals_analyzed": 0,
+    "signals_by_client": {},
+    "average_relevance_score": 0,
+    "engagement_success_rate": 0
+  }
+}

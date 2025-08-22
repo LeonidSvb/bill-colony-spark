@@ -1,0 +1,43 @@
+{
+  "description": "Test configuration for Clay MCP automation",
+  "version": "1.0",
+  "updated": "2025-08-22",
+  "test_mode": {
+    "enabled": true,
+    "use_mock_data": true,
+    "skip_api_calls": false,
+    "output_directory": "C:\\Users\\79818\\Desktop\\clay-reports"
+  },
+  "clay_mcp": {
+    "server_path": "C:\\Users\\79818\\AppData\\Roaming\\npm\\node_modules\\@clayhq\\clay-mcp\\dist\\index.js",
+    "api_key_env": "CLAY_API_KEY",
+    "timeout_seconds": 30,
+    "retry_attempts": 3
+  },
+  "output": {
+    "format": "markdown",
+    "include_timestamps": true,
+    "include_debug_info": true,
+    "separate_error_files": true
+  },
+  "testing": {
+    "sample_data_path": "C:\\Users\\79818\\Desktop\\Bill - Colony Spark\\.claude\\agents\\clay-signal-analyzer\\data\\clay",
+    "mock_responses": {
+      "total_signals": 42,
+      "high_priority": 5,
+      "medium_priority": 12,
+      "trending_topics": ["NetSuite migration", "inventory management", "ERP integration"]
+    }
+  },
+  "reporting": {
+    "include_sections": {
+      "summary": true,
+      "top_opportunities": true,
+      "trends": true,
+      "recommendations": true,
+      "debug_info": true
+    },
+    "max_opportunities": 10,
+    "priority_threshold": 6
+  }
+}

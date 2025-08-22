@@ -18,7 +18,8 @@ Build and deploy agents that transform Bill's manual marketing tasks into automa
 - Use kebab-case for file names
 - Keep 2-level folder structure maximum
 - Organize by functional areas (agents, clients, knowledge, tools)
-- Place outputs in agents/outputs/ for temporary use
+- Client outputs: `clients/[client]/outputs/topic-type-monthDD.md`
+- Agent outputs: `agents/[agent]/outputs/` for non-client work only
 
 ## Documentation Standards
 - Write all documentation in English
@@ -83,6 +84,37 @@ Build and deploy agents that transform Bill's manual marketing tasks into automa
 - Use MCP servers when available (youtube-processor, google-workspace)
 - Fallback to local tools when needed (tools/_deprecated)
 - Configure via .claude.json for project-specific needs
+
+## Agent Architecture Standards
+### Required Folder Structure
+```
+.claude/agents/[agent-name]/
+├── [agent-name].md (main config)
+├── activity.log (session history) 
+└── outputs/ (non-client work only)
+```
+
+### Agent Config Requirements
+- YAML frontmatter: name, description, model, color
+- Core responsibilities section
+- Client Context Management section (MANDATORY):
+  ```markdown
+  When working with clients:
+  1. Read client profile: .claude/knowledge/clients/[client]/profile.md
+  2. Save outputs: clients/[client]/outputs/topic-type-monthDD.md  
+  3. Update context: Add insights to profile "Context Updates Log"
+  4. Log activity: Record in activity.log with file paths
+  ```
+
+### File Naming Standards
+- Agent folders: kebab-case
+- Client outputs: `topic-type-monthDD.md` (e.g., `tariff-opportunities-aug22.md`)
+- Agent outputs: `project-type-monthDD.md` for non-client work
+
+### Corrupted File Prevention
+- If files like `CUsers79818Desktop...` appear, they are bash snapshot artifacts
+- These occur due to Claude Code internal processes
+- Delete manually if they appear and don't affect functionality
 
 ## Automation Features
 - Manual changelog update: `npm run changelog`

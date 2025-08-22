@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-08-22T00:00:00Z",
+  "engagements": [],
+  "schema": {
+    "engagement_id": "unique identifier",
+    "signal_id": "reference to signal from signal-history.json",
+    "client": "client name",
+    "thread_url": "Reddit thread URL",
+    "engagement_date": "ISO timestamp when engaged",
+    "comment_text": "actual comment posted",
+    "outcome": "success|neutral|negative",
+    "metrics": {
+      "upvotes": "number of upvotes received",
+      "replies": "number of replies generated",
+      "follow_up_interest": "boolean if led to further engagement"
+    },
+    "notes": "additional observations about the engagement"
+  },
+  "success_patterns": {
+    "high_performing_topics": [],
+    "effective_comment_styles": [],
+    "optimal_timing": {
+      "best_days": [],
+      "best_hours": []
+    },
+    "subreddit_insights": {}
+  },
+  "performance_metrics": {
+    "total_engagements": 0,
+    "success_rate": 0,
+    "average_upvotes": 0,
+    "average_replies": 0,
+    "client_performance": {}
+  }
+}
